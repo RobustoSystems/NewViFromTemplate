@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="21008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">1</Property>
@@ -60,12 +60,12 @@
 				<Item Name="Init Front Panel.vi" Type="VI" URL="../New VI or CTL From Template/Init Front Panel.vi"/>
 				<Item Name="Owner Status.ctl" Type="VI" URL="../New VI or CTL From Template/Owner Status.ctl"/>
 				<Item Name="Perform Checks.vi" Type="VI" URL="../New VI or CTL From Template/Perform Checks.vi"/>
-				<Item Name="Populate SCL v2.vi" Type="VI" URL="../New VI or CTL From Template/Populate SCL v2.vi"/>
+				<Item Name="Populate SCL.vi" Type="VI" URL="../New VI or CTL From Template/Populate SCL.vi"/>
 			</Item>
-			<Item Name="Execute New VI or CTL From Template.vi" Type="VI" URL="../New VI or CTL From Template/Execute New VI or CTL From Template.vi"/>
+			<Item Name="Execute New VI From Template.vi" Type="VI" URL="../New VI or CTL From Template/Execute New VI From Template.vi"/>
 		</Item>
 		<Item Name="Menu Builder" Type="Folder">
-			<Item Name="New VI or CTL From Template.vi" Type="VI" URL="../New VI or CTL From Template/New VI or CTL From Template.vi"/>
+			<Item Name="New VI From Template.vi" Type="VI" URL="../New VI or CTL From Template/New VI From Template.vi"/>
 		</Item>
 		<Item Name="Sandbox" Type="Folder">
 			<Item Name="VIs with Different Icons" Type="Folder">
@@ -211,7 +211,7 @@ b) for only one LabVIEW version to use the tool, use: "C:\Program Files (x86)\Na
 				<Property Name="Source[0].itemID" Type="Str">{67FB0054-601E-488C-B9D2-004801BA0851}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Execute/Execute New VI or CTL From Template.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Execute/Execute New VI From Template.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[1].VI.LLBtopLevel" Type="Bool">true</Property>
@@ -240,7 +240,7 @@ b) for only one LabVIEW version to use the tool, use: "C:\Program Files (x86)\Na
 				<Property Name="Source[13].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[13].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Menu Builder/New VI or CTL From Template.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Menu Builder/New VI From Template.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[2].VI.LLBtopLevel" Type="Bool">true</Property>
