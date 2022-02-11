@@ -1,0 +1,29 @@
+# Do not include the following folders in the repository
+# Use "Builds" to store the build outputs of the project: EXEs, installers, packed project libraries. Use "Sandbox" to store experimental or temporary files or files that are related to the project but you do not wish to be part of the repository (e.g. .msg Outlook files).
+Builds/Non-Released
+Sandbox
+
+# Do not include the following file types in the repository
+# LabVIEW temporary files
+*.aliases
+*.lvlps
+*.tmp
+
+# TDMS files
+.tdms 
+.tdms_index
+
+# Word temporary
+~$*.doc*
+
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+# Visio autosave temporary files
+*.~vsd*
