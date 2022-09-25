@@ -15,67 +15,67 @@
 		<Item Name="Execute" Type="Folder">
 			<Item Name="SubVIs" Type="Folder">
 				<Item Name="App Settings (Windows Registry)" Type="Folder">
-					<Item Name="Read TemplatesFolder Key (create if does not exist).vi" Type="VI" URL="../New VI or CTL From Template/Read TemplatesFolder Key (create if does not exist).vi"/>
-					<Item Name="Read TemplatesFolder Key.vi" Type="VI" URL="../New VI or CTL From Template/Read TemplatesFolder Key.vi"/>
-					<Item Name="Reg Key Constants.vi" Type="VI" URL="../New VI or CTL From Template/Reg Key Constants.vi"/>
-					<Item Name="Write TemplatesFolder Key.vi" Type="VI" URL="../New VI or CTL From Template/Write TemplatesFolder Key.vi"/>
+					<Item Name="Read TemplatesFolder Key (create if does not exist).vi" Type="VI" URL="../Main Codebase/Read TemplatesFolder Key (create if does not exist).vi"/>
+					<Item Name="Read TemplatesFolder Key.vi" Type="VI" URL="../Main Codebase/Read TemplatesFolder Key.vi"/>
+					<Item Name="Reg Key Constants.vi" Type="VI" URL="../Main Codebase/Reg Key Constants.vi"/>
+					<Item Name="Write TemplatesFolder Key.vi" Type="VI" URL="../Main Codebase/Write TemplatesFolder Key.vi"/>
 				</Item>
 				<Item Name="Config GUI" Type="Folder">
 					<Item Name="Set Captions" Type="Folder">
-						<Item Name="Set Caption - Add To Library Checkbox.vi" Type="VI" URL="../New VI or CTL From Template/Set Caption - Add To Library Checkbox.vi"/>
+						<Item Name="Set Caption - Add To Library Checkbox.vi" Type="VI" URL="../Main Codebase/Set Caption - Add To Library Checkbox.vi"/>
 					</Item>
-					<Item Name="Config GUI - Add To Project.vi" Type="VI" URL="../New VI or CTL From Template/Config GUI - Add To Project.vi"/>
-					<Item Name="Config GUI - Section Header Selected.vi" Type="VI" URL="../New VI or CTL From Template/Config GUI - Section Header Selected.vi"/>
-					<Item Name="GUI Objects (cluster).ctl" Type="VI" URL="../New VI or CTL From Template/GUI Objects (cluster).ctl"/>
+					<Item Name="Config GUI - Add To Project.vi" Type="VI" URL="../Main Codebase/Config GUI - Add To Project.vi"/>
+					<Item Name="Config GUI - Section Header Selected.vi" Type="VI" URL="../Main Codebase/Config GUI - Section Header Selected.vi"/>
+					<Item Name="GUI Objects (cluster).ctl" Type="VI" URL="../Main Codebase/GUI Objects (cluster).ctl"/>
 				</Item>
 				<Item Name="Error Handling" Type="Folder">
-					<Item Name="Error to Dialogue Message.vi" Type="VI" URL="../New VI or CTL From Template/Error to Dialogue Message.vi"/>
-					<Item Name="Handle Loop Errors.vi" Type="VI" URL="../New VI or CTL From Template/Handle Loop Errors.vi"/>
-					<Item Name="Throw Error (no overwrite).vi" Type="VI" URL="../New VI or CTL From Template/Throw Error (no overwrite).vi"/>
+					<Item Name="Error to Dialogue Message.vi" Type="VI" URL="../Main Codebase/Error to Dialogue Message.vi"/>
+					<Item Name="Handle Loop Errors.vi" Type="VI" URL="../Main Codebase/Handle Loop Errors.vi"/>
+					<Item Name="Throw Error (no overwrite).vi" Type="VI" URL="../Main Codebase/Throw Error (no overwrite).vi"/>
 				</Item>
 				<Item Name="Filenames" Type="Folder">
-					<Item Name="Filename - Is Class.vi" Type="VI" URL="../New VI or CTL From Template/Filename - Is Class.vi"/>
-					<Item Name="Filename - Is CTL.vi" Type="VI" URL="../New VI or CTL From Template/Filename - Is CTL.vi"/>
-					<Item Name="Filename - Is CTT.vi" Type="VI" URL="../New VI or CTL From Template/Filename - Is CTT.vi"/>
-					<Item Name="Filename - Is Project Library.vi" Type="VI" URL="../New VI or CTL From Template/Filename - Is Project Library.vi"/>
-					<Item Name="Filename - Is VI.vi" Type="VI" URL="../New VI or CTL From Template/Filename - Is VI.vi"/>
-					<Item Name="Filename - Is VIT.vi" Type="VI" URL="../New VI or CTL From Template/Filename - Is VIT.vi"/>
+					<Item Name="Filename - Is Class.vi" Type="VI" URL="../Main Codebase/Filename - Is Class.vi"/>
+					<Item Name="Filename - Is CTL.vi" Type="VI" URL="../Main Codebase/Filename - Is CTL.vi"/>
+					<Item Name="Filename - Is CTT.vi" Type="VI" URL="../Main Codebase/Filename - Is CTT.vi"/>
+					<Item Name="Filename - Is Project Library.vi" Type="VI" URL="../Main Codebase/Filename - Is Project Library.vi"/>
+					<Item Name="Filename - Is VI.vi" Type="VI" URL="../Main Codebase/Filename - Is VI.vi"/>
+					<Item Name="Filename - Is VIT.vi" Type="VI" URL="../Main Codebase/Filename - Is VIT.vi"/>
 				</Item>
 				<Item Name="Misc VIs" Type="Folder">
-					<Item Name="Add VI to Owner Library or Class.vi" Type="VI" URL="../New VI or CTL From Template/Add VI to Owner Library or Class.vi"/>
-					<Item Name="Add VI to Project.vi" Type="VI" URL="../New VI or CTL From Template/Add VI to Project.vi"/>
-					<Item Name="Close Front Panel.vi" Type="VI" URL="../New VI or CTL From Template/Close Front Panel.vi"/>
-					<Item Name="Close VI Reference.vi" Type="VI" URL="../New VI or CTL From Template/Close VI Reference.vi"/>
-					<Item Name="Create New VI or CTL From Template.vi" Type="VI" URL="../New VI or CTL From Template/Create New VI or CTL From Template.vi"/>
-					<Item Name="Get Destination Folder.vi" Type="VI" URL="../New VI or CTL From Template/Get Destination Folder.vi"/>
-					<Item Name="Get SCL Selected Item.vi" Type="VI" URL="../New VI or CTL From Template/Get SCL Selected Item.vi"/>
-					<Item Name="Get Templates Folder Location.vi" Type="VI" URL="../New VI or CTL From Template/Get Templates Folder Location.vi"/>
-					<Item Name="Get User VI Owners.vi" Type="VI" URL="../New VI or CTL From Template/Get User VI Owners.vi"/>
-					<Item Name="Handle NoTemplatesFound.vi" Type="VI" URL="../New VI or CTL From Template/Handle NoTemplatesFound.vi"/>
-					<Item Name="Init Front Panel.vi" Type="VI" URL="../New VI or CTL From Template/Init Front Panel.vi"/>
-					<Item Name="Owner Status (enum).ctl" Type="VI" URL="../New VI or CTL From Template/Owner Status (enum).ctl"/>
-					<Item Name="Perform Checks.vi" Type="VI" URL="../New VI or CTL From Template/Perform Checks.vi"/>
-					<Item Name="Populate SCL.vi" Type="VI" URL="../New VI or CTL From Template/Populate SCL.vi"/>
+					<Item Name="Add VI to Owner Library or Class.vi" Type="VI" URL="../Main Codebase/Add VI to Owner Library or Class.vi"/>
+					<Item Name="Add VI to Project.vi" Type="VI" URL="../Main Codebase/Add VI to Project.vi"/>
+					<Item Name="Close Front Panel.vi" Type="VI" URL="../Main Codebase/Close Front Panel.vi"/>
+					<Item Name="Close VI Reference.vi" Type="VI" URL="../Main Codebase/Close VI Reference.vi"/>
+					<Item Name="Create New VI or CTL From Template.vi" Type="VI" URL="../Main Codebase/Create New VI or CTL From Template.vi"/>
+					<Item Name="Get Destination Folder.vi" Type="VI" URL="../Main Codebase/Get Destination Folder.vi"/>
+					<Item Name="Get SCL Selected Item.vi" Type="VI" URL="../Main Codebase/Get SCL Selected Item.vi"/>
+					<Item Name="Get Templates Folder Location.vi" Type="VI" URL="../Main Codebase/Get Templates Folder Location.vi"/>
+					<Item Name="Get User VI Owners.vi" Type="VI" URL="../Main Codebase/Get User VI Owners.vi"/>
+					<Item Name="Handle NoTemplatesFound.vi" Type="VI" URL="../Main Codebase/Handle NoTemplatesFound.vi"/>
+					<Item Name="Init Front Panel.vi" Type="VI" URL="../Main Codebase/Init Front Panel.vi"/>
+					<Item Name="Owner Status (enum).ctl" Type="VI" URL="../Main Codebase/Owner Status (enum).ctl"/>
+					<Item Name="Perform Checks.vi" Type="VI" URL="../Main Codebase/Perform Checks.vi"/>
+					<Item Name="Populate SCL.vi" Type="VI" URL="../Main Codebase/Populate SCL.vi"/>
 				</Item>
 				<Item Name="SomeTemplatesFound Tab" Type="Folder">
-					<Item Name="Disable GUI Objects inside SomeTemplatesFound Tab.vi" Type="VI" URL="../New VI or CTL From Template/Disable GUI Objects inside SomeTemplatesFound Tab.vi"/>
-					<Item Name="Enable GUI Objects inside SomeTemplatesFound Tab.vi" Type="VI" URL="../New VI or CTL From Template/Enable GUI Objects inside SomeTemplatesFound Tab.vi"/>
-					<Item Name="Get Refs of GUI Objects inside SomeTemplatesFound Tab.vi" Type="VI" URL="../New VI or CTL From Template/Get Refs of GUI Objects inside SomeTemplatesFound Tab.vi"/>
+					<Item Name="Disable GUI Objects inside SomeTemplatesFound Tab.vi" Type="VI" URL="../Main Codebase/Disable GUI Objects inside SomeTemplatesFound Tab.vi"/>
+					<Item Name="Enable GUI Objects inside SomeTemplatesFound Tab.vi" Type="VI" URL="../Main Codebase/Enable GUI Objects inside SomeTemplatesFound Tab.vi"/>
+					<Item Name="Get Refs of GUI Objects inside SomeTemplatesFound Tab.vi" Type="VI" URL="../Main Codebase/Get Refs of GUI Objects inside SomeTemplatesFound Tab.vi"/>
 				</Item>
 				<Item Name="Testing Flag" Type="Folder">
-					<Item Name="Testing Flag (enum).ctl" Type="VI" URL="../New VI or CTL From Template/Testing Flag (enum).ctl"/>
-					<Item Name="Testing Flag (library variable).vi" Type="VI" URL="../New VI or CTL From Template/Testing Flag (library variable).vi"/>
+					<Item Name="Testing Flag (enum).ctl" Type="VI" URL="../Main Codebase/Testing Flag (enum).ctl"/>
+					<Item Name="Testing Flag (library variable).vi" Type="VI" URL="../Main Codebase/Testing Flag (library variable).vi"/>
 				</Item>
 			</Item>
-			<Item Name="Execute New VI From Template.vi" Type="VI" URL="../New VI or CTL From Template/Execute New VI From Template.vi"/>
+			<Item Name="Execute New VI From Template.vi" Type="VI" URL="../Main Codebase/Execute New VI From Template.vi"/>
 		</Item>
 		<Item Name="Menu Builder" Type="Folder">
-			<Item Name="New VI From Template.vi" Type="VI" URL="../New VI or CTL From Template/New VI From Template.vi"/>
+			<Item Name="New VI From Template.vi" Type="VI" URL="../Main Codebase/New VI From Template.vi"/>
 		</Item>
 		<Item Name="Sandbox" Type="Folder">
-			<Item Name="Sandbox 1 - Add VI to Project.vi" Type="VI" URL="../New VI or CTL From Template/Sandbox 1 - Add VI to Project.vi"/>
-			<Item Name="Sandbox 2 - Add VI to lvlib.vi" Type="VI" URL="../New VI or CTL From Template/Sandbox 2 - Add VI to lvlib.vi"/>
-			<Item Name="Sandbox 3 - General Testing.vi" Type="VI" URL="../New VI or CTL From Template/Sandbox 3 - General Testing.vi"/>
+			<Item Name="Sandbox 1 - Add VI to Project.vi" Type="VI" URL="../Main Codebase/Sandbox 1 - Add VI to Project.vi"/>
+			<Item Name="Sandbox 2 - Add VI to lvlib.vi" Type="VI" URL="../Main Codebase/Sandbox 2 - Add VI to lvlib.vi"/>
+			<Item Name="Sandbox 3 - General Testing.vi" Type="VI" URL="../Main Codebase/Sandbox 3 - General Testing.vi"/>
 		</Item>
 		<Item Name="Support Files (do not modify)" Type="Folder">
 			<Item Name="(Note part 1) These CTLs have to be included in the project" Type="Folder"/>
@@ -144,29 +144,29 @@ b) for only one LabVIEW version to use the tool, use: "C:\Program Files (x86)\Na
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
 				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/20.0</Property>
-				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/Petru/Documents/LabVIEW Data/2020(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/21.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/Petru/Documents/LabVIEW Data/2021(32-bit)/ExtraVILib</Property>
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
 				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Builds/Non-Released/LLBs/NI_AB_PROJECTNAME.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Non-Released/LLBs/NI_AB_PROJECTNAME.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{07C03683-FA6E-4D37-8490-0DD7953CED1B}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">2</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/Non-Released/LLBs/LLB Build Log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Builds/Non-Released/LLBs/NI_AB_PROJECTNAME.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Non-Released/LLBs/NI_AB_PROJECTNAME.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Builds/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{67FB0054-601E-488C-B9D2-004801BA0851}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{47AF44AB-604E-4A11-995E-0475E642EEF9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Execute/Execute New VI From Template.vi</Property>
@@ -176,27 +176,15 @@ b) for only one LabVIEW version to use the tool, use: "C:\Program Files (x86)\Na
 				<Property Name="Source[10].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[10].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref"></Property>
-				<Property Name="Source[10].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Execute/SubVIs</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">Container</Property>
 				<Property Name="Source[11].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[11].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Support Files (do not modify)</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Sandbox</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[11].type" Type="Str">Container</Property>
-				<Property Name="Source[12].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[12].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Execute/SubVIs</Property>
-				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[12].type" Type="Str">Container</Property>
-				<Property Name="Source[13].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[13].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Sandbox</Property>
-				<Property Name="Source[13].sourceInclusion" Type="Str">Exclude</Property>
-				<Property Name="Source[13].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Menu Builder/New VI From Template.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -223,10 +211,10 @@ b) for only one LabVIEW version to use the tool, use: "C:\Program Files (x86)\Na
 				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref"></Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Support Files (do not modify)</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">14</Property>
+				<Property Name="SourceCount" Type="Int">12</Property>
 			</Item>
 		</Item>
 	</Item>
