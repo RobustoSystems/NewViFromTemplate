@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-09-25 19:44:21" Modified_Date="2022-09-25 20:29:25" Creator="Petru" Comments="" ID="1f89d74ab8ba3ac981146ddf29c4fe51">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-09-25 19:44:21" Modified_Date="2022-09-25 20:45:20" Creator="Petru" Comments="" ID="c6a252599a7e8a2fa5eeb5738e567cdb">
   <Library_General_Settings>
     <Package_File_Name>Robusto_Systems_lib_New_VI_From_Template_(Right_Click_Menu_Plugin)</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\Released\2022-09-25</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -37,7 +37,7 @@ The template VIs and CTLs are expected to be found in a folder named "Template V
 The user is encouraged to add their own template VI's and CTL's into the Template VIs folder.
 
 This package installs:
-1. An LLB file named "New VI From Template.llb", to location &lt;LabVIEW Data&gt;\PopupMenus\edit time panel and diagram ; This LLB contains the source code of the plugin
+1. An LLB file named "New VI From Template.llb" to location: &lt;LabVIEW installation directory&gt;\resource\plugins\PopupMenus\edit time panel and diagram ; For example, to "C:\Program Files (x86)\National Instruments\LabVIEW 2020\resource\plugins\PopupMenus\edit time panel and diagram" ; This LLB contains the source code of the plugin.
 2. Two template VI's and two template CTL's into the Template VIs folder (C:\Template VIs). These are some of the template files we use at Robusto Systems. Feel free to use these templates, or to replace them with your own.
 
 The source code is available in the LLB file, or at the following Github repository: https://github.com/RobustoSystems/NewViFromTemplate
@@ -113,7 +113,7 @@ www.robustosystems.com</Description>
         <Name>RightClick Plugins</Name>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;OS User Documents&gt;\LabVIEW Data\PopupMenus\edit time panel and diagram</Path>
+        <Path>&lt;resource&gt;\plugins\PopupMenus\edit time panel and diagram</Path>
       </Additional_Destination>
     </Destinations>
     <Source_Files>
@@ -158,7 +158,7 @@ www.robustosystems.com</Description>
         <Namespace/>
       </Namespace_Overrides>
       <Exclusions>
-        <Path>This LLB (1,189 KB) was saved for LabVIEW 2015.txt</Path>
+        <Path>This LLB (1,189 KB) and the four template VIs were saved for LabVIEW 2015.txt</Path>
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
