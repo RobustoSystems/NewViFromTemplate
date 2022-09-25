@@ -82,6 +82,7 @@
 			<Item Name="Investigation LabVIEW Icon.vi" Type="VI" URL="../New VI or CTL From Template/Investigation LabVIEW Icon.vi"/>
 			<Item Name="Sandbox - Add VI to lvlib.vi" Type="VI" URL="../New VI or CTL From Template/Sandbox - Add VI to lvlib.vi"/>
 			<Item Name="Sandbox - Add VI to Project.vi" Type="VI" URL="../New VI or CTL From Template/Sandbox - Add VI to Project.vi"/>
+			<Item Name="Sandbox 2.vi" Type="VI" URL="../New VI or CTL From Template/Sandbox 2.vi"/>
 			<Item Name="Sandbox 3.vi" Type="VI" URL="../New VI or CTL From Template/Sandbox 3.vi"/>
 			<Item Name="Sandbox.vi" Type="VI" URL="../New VI or CTL From Template/Sandbox.vi"/>
 			<Item Name="Target Library.lvlib" Type="Library" URL="/C/Users/Petru/Documents/LabVIEW Data/PopupMenus/edit time panel and diagram/Templates/Target Library/Target Library.lvlib"/>
@@ -98,21 +99,8 @@
 			<Item Name="Transaction Control.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Transaction Control.ctl"/>
 		</Item>
 		<Item Name="Templates" Type="Folder">
-			<Item Name="CTLs" Type="Folder">
-				<Item Name="CTL Template 1.ctl" Type="VI" URL="/C/Users/Petru/Documents/LabVIEW Data/PopupMenus/edit time panel and diagram/Templates/CTL Template 1.ctl"/>
-				<Item Name="CTL Template 2.ctl" Type="VI" URL="/C/Users/Petru/Documents/LabVIEW Data/PopupMenus/edit time panel and diagram/Templates/CTL Template 2.ctl"/>
-				<Item Name="CTL Template 3.ctl" Type="VI" URL="/C/Users/Petru/Documents/LabVIEW Data/PopupMenus/edit time panel and diagram/Templates/CTL Template 3.ctl"/>
-				<Item Name="CTL Template 4.ctl" Type="VI" URL="/C/Users/Petru/Documents/LabVIEW Data/PopupMenus/edit time panel and diagram/Templates/CTL Template 4.ctl"/>
-				<Item Name="CTL Template 5.ctl" Type="VI" URL="/C/Users/Petru/Documents/LabVIEW Data/PopupMenus/edit time panel and diagram/Templates/CTL Template 5.ctl"/>
-			</Item>
 			<Item Name="CTTs" Type="Folder">
 				<Item Name="CTL Template 1.ctt" Type="VI" URL="../Templates/CTL Template 1.ctt"/>
-			</Item>
-			<Item Name="VIs" Type="Folder">
-				<Item Name="VI Template 2.vi" Type="VI" URL="/C/Users/Petru/Documents/LabVIEW Data/PopupMenus/edit time panel and diagram/Templates/VI Template 2.vi"/>
-				<Item Name="VI Template 3.vi" Type="VI" URL="/C/Users/Petru/Documents/LabVIEW Data/PopupMenus/edit time panel and diagram/Templates/VI Template 3.vi"/>
-				<Item Name="VI Template 4.vi" Type="VI" URL="/C/Users/Petru/Documents/LabVIEW Data/PopupMenus/edit time panel and diagram/Templates/VI Template 4.vi"/>
-				<Item Name="VI Template 5.vi" Type="VI" URL="/C/Users/Petru/Documents/LabVIEW Data/PopupMenus/edit time panel and diagram/Templates/VI Template 5.vi"/>
 			</Item>
 			<Item Name="VITs" Type="Folder">
 				<Item Name="VI Template 1.vit" Type="VI" URL="../Templates/VI Template 1.vit"/>
@@ -208,6 +196,8 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="VI Icon - Default Icon.vi" Type="VI" URL="../New VI or CTL From Template/VI Icon - Default Icon.vi"/>
+			<Item Name="VI Icon - Multiple User Layers and Text.vi" Type="VI" URL="../New VI or CTL From Template/VI Icon - Multiple User Layers and Text.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="New VI or CTL From Template.llb" Type="Source Distribution">
