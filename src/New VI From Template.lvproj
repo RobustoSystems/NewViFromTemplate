@@ -26,12 +26,12 @@
 					</Item>
 					<Item Name="Config GUI - Add To Project.vi" Type="VI" URL="../New VI or CTL From Template/Config GUI - Add To Project.vi"/>
 					<Item Name="Config GUI - Section Header Selected.vi" Type="VI" URL="../New VI or CTL From Template/Config GUI - Section Header Selected.vi"/>
-					<Item Name="GUI Objects.ctl" Type="VI" URL="../New VI or CTL From Template/GUI Objects.ctl"/>
+					<Item Name="GUI Objects (cluster).ctl" Type="VI" URL="../New VI or CTL From Template/GUI Objects (cluster).ctl"/>
 				</Item>
 				<Item Name="Error Handling" Type="Folder">
 					<Item Name="Error to Dialogue Message.vi" Type="VI" URL="../New VI or CTL From Template/Error to Dialogue Message.vi"/>
 					<Item Name="Handle Loop Errors.vi" Type="VI" URL="../New VI or CTL From Template/Handle Loop Errors.vi"/>
-					<Item Name="Raise Error (no overwrite).vi" Type="VI" URL="../New VI or CTL From Template/Raise Error (no overwrite).vi"/>
+					<Item Name="Throw Error (no overwrite).vi" Type="VI" URL="../New VI or CTL From Template/Throw Error (no overwrite).vi"/>
 				</Item>
 				<Item Name="Filenames" Type="Folder">
 					<Item Name="Filename - Is Class.vi" Type="VI" URL="../New VI or CTL From Template/Filename - Is Class.vi"/>
@@ -41,32 +41,31 @@
 					<Item Name="Filename - Is VI.vi" Type="VI" URL="../New VI or CTL From Template/Filename - Is VI.vi"/>
 					<Item Name="Filename - Is VIT.vi" Type="VI" URL="../New VI or CTL From Template/Filename - Is VIT.vi"/>
 				</Item>
+				<Item Name="Misc VIs" Type="Folder">
+					<Item Name="Add VI to Owner Library or Class.vi" Type="VI" URL="../New VI or CTL From Template/Add VI to Owner Library or Class.vi"/>
+					<Item Name="Add VI to Project.vi" Type="VI" URL="../New VI or CTL From Template/Add VI to Project.vi"/>
+					<Item Name="Close Front Panel.vi" Type="VI" URL="../New VI or CTL From Template/Close Front Panel.vi"/>
+					<Item Name="Close VI Reference.vi" Type="VI" URL="../New VI or CTL From Template/Close VI Reference.vi"/>
+					<Item Name="Create New VI or CTL From Template.vi" Type="VI" URL="../New VI or CTL From Template/Create New VI or CTL From Template.vi"/>
+					<Item Name="Get Destination Folder.vi" Type="VI" URL="../New VI or CTL From Template/Get Destination Folder.vi"/>
+					<Item Name="Get SCL Selected Item.vi" Type="VI" URL="../New VI or CTL From Template/Get SCL Selected Item.vi"/>
+					<Item Name="Get Templates Folder Location.vi" Type="VI" URL="../New VI or CTL From Template/Get Templates Folder Location.vi"/>
+					<Item Name="Get User VI Owners.vi" Type="VI" URL="../New VI or CTL From Template/Get User VI Owners.vi"/>
+					<Item Name="Handle NoTemplatesFound.vi" Type="VI" URL="../New VI or CTL From Template/Handle NoTemplatesFound.vi"/>
+					<Item Name="Init Front Panel.vi" Type="VI" URL="../New VI or CTL From Template/Init Front Panel.vi"/>
+					<Item Name="Owner Status (enum).ctl" Type="VI" URL="../New VI or CTL From Template/Owner Status (enum).ctl"/>
+					<Item Name="Perform Checks.vi" Type="VI" URL="../New VI or CTL From Template/Perform Checks.vi"/>
+					<Item Name="Populate SCL.vi" Type="VI" URL="../New VI or CTL From Template/Populate SCL.vi"/>
+				</Item>
 				<Item Name="SomeTemplatesFound Tab" Type="Folder">
 					<Item Name="Disable GUI Objects inside SomeTemplatesFound Tab.vi" Type="VI" URL="../New VI or CTL From Template/Disable GUI Objects inside SomeTemplatesFound Tab.vi"/>
 					<Item Name="Enable GUI Objects inside SomeTemplatesFound Tab.vi" Type="VI" URL="../New VI or CTL From Template/Enable GUI Objects inside SomeTemplatesFound Tab.vi"/>
 					<Item Name="Get Refs of GUI Objects inside SomeTemplatesFound Tab.vi" Type="VI" URL="../New VI or CTL From Template/Get Refs of GUI Objects inside SomeTemplatesFound Tab.vi"/>
 				</Item>
-				<Item Name="Testing" Type="Folder">
+				<Item Name="Testing Flag" Type="Folder">
 					<Item Name="Testing Flag (enum).ctl" Type="VI" URL="../New VI or CTL From Template/Testing Flag (enum).ctl"/>
 					<Item Name="Testing Flag (library variable).vi" Type="VI" URL="../New VI or CTL From Template/Testing Flag (library variable).vi"/>
 				</Item>
-				<Item Name="VI Icon" Type="Folder">
-					<Item Name="Apply Library Icon to VI.vi" Type="VI" URL="../New VI or CTL From Template/Apply Library Icon to VI.vi"/>
-				</Item>
-				<Item Name="Add VI to Owner Library or Class.vi" Type="VI" URL="../New VI or CTL From Template/Add VI to Owner Library or Class.vi"/>
-				<Item Name="Add VI to Project.vi" Type="VI" URL="../New VI or CTL From Template/Add VI to Project.vi"/>
-				<Item Name="Close Front Panel.vi" Type="VI" URL="../New VI or CTL From Template/Close Front Panel.vi"/>
-				<Item Name="Close VI Reference.vi" Type="VI" URL="../New VI or CTL From Template/Close VI Reference.vi"/>
-				<Item Name="Create New VI or CTL From Template.vi" Type="VI" URL="../New VI or CTL From Template/Create New VI or CTL From Template.vi"/>
-				<Item Name="Get Destination Folder.vi" Type="VI" URL="../New VI or CTL From Template/Get Destination Folder.vi"/>
-				<Item Name="Get SCL Selected Item.vi" Type="VI" URL="../New VI or CTL From Template/Get SCL Selected Item.vi"/>
-				<Item Name="Get Templates Folder Location.vi" Type="VI" URL="../New VI or CTL From Template/Get Templates Folder Location.vi"/>
-				<Item Name="Get User VI Owners.vi" Type="VI" URL="../New VI or CTL From Template/Get User VI Owners.vi"/>
-				<Item Name="Handle NoTemplatesFound.vi" Type="VI" URL="../New VI or CTL From Template/Handle NoTemplatesFound.vi"/>
-				<Item Name="Init Front Panel.vi" Type="VI" URL="../New VI or CTL From Template/Init Front Panel.vi"/>
-				<Item Name="Owner Status.ctl" Type="VI" URL="../New VI or CTL From Template/Owner Status.ctl"/>
-				<Item Name="Perform Checks.vi" Type="VI" URL="../New VI or CTL From Template/Perform Checks.vi"/>
-				<Item Name="Populate SCL.vi" Type="VI" URL="../New VI or CTL From Template/Populate SCL.vi"/>
 			</Item>
 			<Item Name="Execute New VI From Template.vi" Type="VI" URL="../New VI or CTL From Template/Execute New VI From Template.vi"/>
 		</Item>
@@ -74,23 +73,14 @@
 			<Item Name="New VI From Template.vi" Type="VI" URL="../New VI or CTL From Template/New VI From Template.vi"/>
 		</Item>
 		<Item Name="Sandbox" Type="Folder">
-			<Item Name="VIs with Different Icons" Type="Folder">
-				<Item Name="VI Icon - Border Only.vi" Type="VI" URL="../New VI or CTL From Template/VI Icon - Border Only.vi"/>
-				<Item Name="VI Icon - Icon Template And Text.vi" Type="VI" URL="../New VI or CTL From Template/VI Icon - Icon Template And Text.vi"/>
-				<Item Name="VI Icon - Icon Template Only.vi" Type="VI" URL="../New VI or CTL From Template/VI Icon - Icon Template Only.vi"/>
-			</Item>
-			<Item Name="Investigation LabVIEW Icon.vi" Type="VI" URL="../New VI or CTL From Template/Investigation LabVIEW Icon.vi"/>
-			<Item Name="Sandbox - Add VI to lvlib.vi" Type="VI" URL="../New VI or CTL From Template/Sandbox - Add VI to lvlib.vi"/>
-			<Item Name="Sandbox - Add VI to Project.vi" Type="VI" URL="../New VI or CTL From Template/Sandbox - Add VI to Project.vi"/>
-			<Item Name="Sandbox 2.vi" Type="VI" URL="../New VI or CTL From Template/Sandbox 2.vi"/>
-			<Item Name="Sandbox 3.vi" Type="VI" URL="../New VI or CTL From Template/Sandbox 3.vi"/>
-			<Item Name="Sandbox.vi" Type="VI" URL="../New VI or CTL From Template/Sandbox.vi"/>
-			<Item Name="Target Library.lvlib" Type="Library" URL="/C/Users/Petru/Documents/LabVIEW Data/PopupMenus/edit time panel and diagram/Templates/Target Library/Target Library.lvlib"/>
+			<Item Name="Sandbox 1 - Add VI to Project.vi" Type="VI" URL="../New VI or CTL From Template/Sandbox 1 - Add VI to Project.vi"/>
+			<Item Name="Sandbox 2 - Add VI to lvlib.vi" Type="VI" URL="../New VI or CTL From Template/Sandbox 2 - Add VI to lvlib.vi"/>
+			<Item Name="Sandbox 3 - General Testing.vi" Type="VI" URL="../New VI or CTL From Template/Sandbox 3 - General Testing.vi"/>
 		</Item>
 		<Item Name="Support Files (do not modify)" Type="Folder">
-			<Item Name="Note Part 1 These CTLs have to be included in the project" Type="Folder"/>
-			<Item Name="Note Part 2 So that they can be explicitly excluded from the LLB build spec" Type="Folder"/>
-			<Item Name="Note Part 3 There should be no need to modify these CTLs" Type="Folder"/>
+			<Item Name="(Note part 1) These CTLs have to be included in the project" Type="Folder"/>
+			<Item Name="(Note part 2) So that they can be explicitly excluded from the LLB build spec" Type="Folder"/>
+			<Item Name="(Note part 3) There should be no need to modify these CTLs" Type="Folder"/>
 			<Item Name="Checkmark Status.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Checkmark Status.ctl"/>
 			<Item Name="Enabled Menu Item Status.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Enabled Menu Item Status.ctl"/>
 			<Item Name="Position In Menu.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Position In Menu.ctl"/>
@@ -98,72 +88,21 @@
 			<Item Name="Shortcut Menu Item Definition.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Shortcut Menu Item Definition.ctl"/>
 			<Item Name="Transaction Control.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Transaction Control.ctl"/>
 		</Item>
-		<Item Name="Templates" Type="Folder">
-			<Item Name="CTTs" Type="Folder">
-				<Item Name="CTL Template 1.ctt" Type="VI" URL="../Templates/CTL Template 1.ctt"/>
-			</Item>
-			<Item Name="VITs" Type="Folder">
-				<Item Name="VI Template 1.vit" Type="VI" URL="../Templates/VI Template 1.vit"/>
-			</Item>
-		</Item>
-		<Item Name="Testers" Type="Folder">
-			<Item Name="Tester 1.vi" Type="VI" URL="../New VI or CTL From Template/Tester 1.vi"/>
-		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Alignment.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Alignment.ctl"/>
-				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
-				<Item Name="BodyText.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/BodyText.ctl"/>
-				<Item Name="BodyTextPosition.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/BodyTextPosition.ctl"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
-				<Item Name="Coerce Bad Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Coerce Bad Rect.vi"/>
-				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
-				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
-				<Item Name="Create Mask.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Create Mask.vi"/>
 				<Item Name="Create Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Create Registry Key.vi"/>
-				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
-				<Item Name="Draw 1-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 1-Bit Pixmap.vi"/>
-				<Item Name="Draw 4-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 4-Bit Pixmap.vi"/>
-				<Item Name="Draw 8-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 8-Bit Pixmap.vi"/>
-				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
-				<Item Name="Draw Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rect.vi"/>
-				<Item Name="Draw Text at Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text at Point.vi"/>
-				<Item Name="Draw Text in Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text in Rect.vi"/>
-				<Item Name="Draw True-Color Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw True-Color Pixmap.vi"/>
-				<Item Name="Draw Unflattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Unflattened Pixmap.vi"/>
-				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
-				<Item Name="Flatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Flatten Pixmap.vi"/>
-				<Item Name="Font.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Font.ctl"/>
-				<Item Name="Get Image Subset.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Get Image Subset.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="Graphic.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Graphic.ctl"/>
-				<Item Name="Icon Framework.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Classes/Icon Framework/Icon Framework.lvclass"/>
-				<Item Name="Icon.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Classes/Icon/Icon.lvclass"/>
-				<Item Name="IEColor.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/IEColor.ctl"/>
-				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
-				<Item Name="LabVIEW Icon API.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Icon API/LabVIEW Icon API.lvlib"/>
-				<Item Name="LabVIEW Icon Stored Information.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/LabVIEW Icon Stored Information.ctl"/>
-				<Item Name="Layer.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Layer.ctl"/>
-				<Item Name="Layer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Classes/Layer/Layer.lvclass"/>
-				<Item Name="LayerType.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/LayerType.ctl"/>
-				<Item Name="Load &amp; Unload.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Classes/Load_Unload/Load &amp; Unload.lvclass"/>
-				<Item Name="lv_icon.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/lv_icon.lvlib"/>
 				<Item Name="LVFontTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVFontTypeDef.ctl"/>
-				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
-				<Item Name="Pathes.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Pathes.ctl"/>
-				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
-				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
 				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
 				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
 				<Item Name="Read Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple U32.vi"/>
@@ -177,12 +116,8 @@
 				<Item Name="Registry Simplify Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Simplify Data Type.vi"/>
 				<Item Name="Registry View.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry View.ctl"/>
 				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
-				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
-				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
-				<Item Name="Unflatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Unflatten Pixmap.vi"/>
 				<Item Name="Write Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value DWORD.vi"/>
 				<Item Name="Write Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value Simple STR.vi"/>
 				<Item Name="Write Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value Simple U32.vi"/>
@@ -196,8 +131,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="VI Icon - Default Icon.vi" Type="VI" URL="../New VI or CTL From Template/VI Icon - Default Icon.vi"/>
-			<Item Name="VI Icon - Multiple User Layers and Text.vi" Type="VI" URL="../New VI or CTL From Template/VI Icon - Multiple User Layers and Text.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="New VI or CTL From Template.llb" Type="Source Distribution">
@@ -243,7 +176,7 @@ b) for only one LabVIEW version to use the tool, use: "C:\Program Files (x86)\Na
 				<Property Name="Source[10].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[10].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Testers</Property>
+				<Property Name="Source[10].itemID" Type="Ref"></Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[10].type" Type="Str">Container</Property>
 				<Property Name="Source[11].Container.applyInclusion" Type="Bool">true</Property>
@@ -290,7 +223,7 @@ b) for only one LabVIEW version to use the tool, use: "C:\Program Files (x86)\Na
 				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Templates</Property>
+				<Property Name="Source[9].itemID" Type="Ref"></Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">14</Property>

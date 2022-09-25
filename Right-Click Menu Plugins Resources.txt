@@ -1,0 +1,10 @@
+The following are resources about LabVIEW right-click menu plugins (a.k.a. shortcut menu plugins)
+
+1. LABVIEW SHORTCUT MENU PLUG-INS (NI Community): https://forums.ni.com/t5/LabVIEW-Shortcut-Menu-Plug-Ins/tkb-p/3013?profile.language=en
+2. Introduction to Shortcut Menu Plugins (Read this first): https://forums.ni.com/t5/LabVIEW-Shortcut-Menu-Plug-Ins/Read-This-First/ta-p/3515399?profile.language=en
+3. Presentation - Augmenting Right-Click Menus in LabVIEW: https://forums.ni.com/t5/LabVIEW-Shortcut-Menu-Plug-Ins/Presentation-Augmenting-Right-Click-Menus-in-LabVIEW/ta-p/3521526?profile.language=en
+4. How to install plug-ins that you download: https://forums.ni.com/t5/LabVIEW-Shortcut-Menu-Plug-Ins/How-to-install-plug-ins-that-you-download/ta-p/3517848?profile.language=en
+5. Darren's Favorite Shortcut Menu Plug-Ins: https://forums.ni.com/t5/LabVIEW-Shortcut-Menu-Plug-Ins/Darren-s-Favorite-Shortcut-Menu-Plug-Ins-zip/ta-p/3525280?profile.language=en
+6. AQ Favorite Edit Time Menu Plug-Ins: https://forums.ni.com/t5/LabVIEW-Shortcut-Menu-Plug-Ins/AQ-Favorite-Edit-Time-Menu-Plug-Ins-and-Outs-zip/ta-p/3523920?profile.language=en
+7. List of Community Shortcut Menu Plug-ins (Part 1): https://forums.ni.com/t5/LabVIEW-Shortcut-Menu-Plug-Ins/List-of-Community-Shortcut-Menu-Plug-ins-Part-1/ta-p/4112961?profile.language=en
+8. List of Community Shortcut Menu Plug-ins (Part 2): https://forums.ni.com/t5/LabVIEW-Shortcut-Menu-Plug-Ins/List-of-Community-Shortcut-Menu-Plug-ins-Part-2/ta-p/4168650?profile.language=en
