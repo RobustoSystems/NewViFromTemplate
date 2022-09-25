@@ -158,7 +158,7 @@ b) for only one LabVIEW version to use the tool, use: "C:\Program Files (x86)\Na
 				<Property Name="Bld_removeVIObj" Type="Int">2</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/Non-Released/LLBs/LLB Build Log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Non-Released/LLBs/NI_AB_PROJECTNAME.llb</Property>
@@ -166,7 +166,7 @@ b) for only one LabVIEW version to use the tool, use: "C:\Program Files (x86)\Na
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Builds/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{47AF44AB-604E-4A11-995E-0475E642EEF9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{71FDB3AB-23D1-42BE-B41C-965579D54B41}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Execute/Execute New VI From Template.vi</Property>
