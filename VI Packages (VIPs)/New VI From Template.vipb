@@ -1,9 +1,9 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-09-25 19:44:21" Modified_Date="2022-09-25 20:45:20" Creator="Petru" Comments="" ID="c6a252599a7e8a2fa5eeb5738e567cdb">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-09-25 19:44:21" Modified_Date="2022-09-25 21:09:23" Creator="Petru" Comments="" ID="dd19b1e70a267705ce922c0253f5d253">
   <Library_General_Settings>
     <Package_File_Name>Robusto_Systems_lib_New_VI_From_Template_(Right_Click_Menu_Plugin)</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
-    <Library_Source_Folder>..\builds\Released\2022-09-25</Library_Source_Folder>
+    <Library_Source_Folder>..\builds\Released\2022-09-25 (version 2)</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
     <Company_Name>Robusto Systems</Company_Name>
     <Library_Summary/>
@@ -32,13 +32,13 @@
 
 To launch the tool right-click on a free label (a comment) on the block diagram of a VI and select "New VI From Template...". A GUI will pop-up. The GUI enables the user to select a template VI or CTL and insert a copy of the template file into the project, library (lvlib) or class that owns the VI from which the user right-clicked. The GUI displays the block diagram of the selected template VI.
 
-The template VIs and CTLs are expected to be found in a folder named "Template VIs" in the Boot Volume Root, which is usually the C drive. Therefore the folder usually resolves to "C:\Template VIs".
-
-The user is encouraged to add their own template VI's and CTL's into the Template VIs folder.
-
 This package installs:
 1. An LLB file named "New VI From Template.llb" to location: &lt;LabVIEW installation directory&gt;\resource\plugins\PopupMenus\edit time panel and diagram ; For example, to "C:\Program Files (x86)\National Instruments\LabVIEW 2020\resource\plugins\PopupMenus\edit time panel and diagram" ; This LLB contains the source code of the plugin.
 2. Two template VI's and two template CTL's into the Template VIs folder (C:\Template VIs). These are some of the template files we use at Robusto Systems. Feel free to use these templates, or to replace them with your own.
+
+The template VIs and CTLs are expected to be found in a subfolder named "Template VIs" in the location where the LLB is installed: &lt;LabVIEW installation directory&gt;\resource\plugins\PopupMenus\edit time panel and diagram\Template VIs
+
+The user is encouraged to add their own template VI's and CTL's into the Template VIs folder.
 
 The source code is available in the LLB file, or at the following Github repository: https://github.com/RobustoSystems/NewViFromTemplate
 
@@ -77,7 +77,7 @@ www.robustosystems.com</Description>
       <Template_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;OS Boot Volume Root&gt;\Template VIs</Path>
+        <Path>&lt;resource&gt;\plugins\PopupMenus\edit time panel and diagram\Template VIs</Path>
       </Template_VIs>
       <File_Menu>
         <LLB>false</LLB>
@@ -124,13 +124,7 @@ www.robustosystems.com</Description>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>1 VI Template (With Error Terminals).vi</Path>
-        <Destination>5</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>2 VI Template (Without Error Terminals).vi</Path>
+        <Path>4 CTL Template (Typedef Enum).ctl</Path>
         <Destination>5</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
@@ -142,7 +136,13 @@ www.robustosystems.com</Description>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>4 CTL Template (Typedef Enum).ctl</Path>
+        <Path>2 VI Template (Without Error Terminals).vi</Path>
+        <Destination>5</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>1 VI Template (With Error Terminals).vi</Path>
         <Destination>5</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
@@ -158,7 +158,7 @@ www.robustosystems.com</Description>
         <Namespace/>
       </Namespace_Overrides>
       <Exclusions>
-        <Path>This LLB (1,189 KB) and the four template VIs were saved for LabVIEW 2015.txt</Path>
+        <Path>This LLB and the four template VIs were saved for LabVIEW 2016.txt</Path>
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
