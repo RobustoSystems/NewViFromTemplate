@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="21008000">
+<Project Type="Project" LVVersion="22308000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">1</Property>
@@ -15,7 +15,6 @@
 		<Item Name="Execute" Type="Folder">
 			<Item Name="SubVIs" Type="Folder">
 				<Item Name="App Settings (Windows Registry)" Type="Folder">
-					<Item Name="Read TemplatesFolder Key (create if does not exist).vi" Type="VI" URL="../Main Codebase/Read TemplatesFolder Key (create if does not exist).vi"/>
 					<Item Name="Read TemplatesFolder Key.vi" Type="VI" URL="../Main Codebase/Read TemplatesFolder Key.vi"/>
 					<Item Name="Reg Key Constants.vi" Type="VI" URL="../Main Codebase/Reg Key Constants.vi"/>
 					<Item Name="Write TemplatesFolder Key.vi" Type="VI" URL="../Main Codebase/Write TemplatesFolder Key.vi"/>
