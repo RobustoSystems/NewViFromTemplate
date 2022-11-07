@@ -32,6 +32,10 @@
 					<Item Name="Handle Loop Errors.vi" Type="VI" URL="../Main Codebase/Handle Loop Errors.vi"/>
 					<Item Name="Throw Error (no overwrite).vi" Type="VI" URL="../Main Codebase/Throw Error (no overwrite).vi"/>
 				</Item>
+				<Item Name="File System" Type="Folder">
+					<Item Name="is directory.vi" Type="VI" URL="../Main Codebase/is directory.vi"/>
+					<Item Name="is valid path.vi" Type="VI" URL="../Main Codebase/is valid path.vi"/>
+				</Item>
 				<Item Name="Filenames" Type="Folder">
 					<Item Name="Filename - Is Class.vi" Type="VI" URL="../Main Codebase/Filename - Is Class.vi"/>
 					<Item Name="Filename - Is CTL.vi" Type="VI" URL="../Main Codebase/Filename - Is CTL.vi"/>
@@ -41,6 +45,7 @@
 					<Item Name="Filename - Is VIT.vi" Type="VI" URL="../Main Codebase/Filename - Is VIT.vi"/>
 				</Item>
 				<Item Name="Misc VIs" Type="Folder">
+					<Item Name="_TBD Get Templates Folder Location.vi" Type="VI" URL="../Main Codebase/_TBD Get Templates Folder Location.vi"/>
 					<Item Name="Add VI to Owner Library or Class.vi" Type="VI" URL="../Main Codebase/Add VI to Owner Library or Class.vi"/>
 					<Item Name="Add VI to Project.vi" Type="VI" URL="../Main Codebase/Add VI to Project.vi"/>
 					<Item Name="Close Front Panel.vi" Type="VI" URL="../Main Codebase/Close Front Panel.vi"/>
@@ -48,7 +53,6 @@
 					<Item Name="Create New VI or CTL From Template.vi" Type="VI" URL="../Main Codebase/Create New VI or CTL From Template.vi"/>
 					<Item Name="Get Destination Folder.vi" Type="VI" URL="../Main Codebase/Get Destination Folder.vi"/>
 					<Item Name="Get SCL Selected Item.vi" Type="VI" URL="../Main Codebase/Get SCL Selected Item.vi"/>
-					<Item Name="Get Templates Folder Location.vi" Type="VI" URL="../Main Codebase/Get Templates Folder Location.vi"/>
 					<Item Name="Get User VI Owners.vi" Type="VI" URL="../Main Codebase/Get User VI Owners.vi"/>
 					<Item Name="Handle NoTemplatesFound.vi" Type="VI" URL="../Main Codebase/Handle NoTemplatesFound.vi"/>
 					<Item Name="Init Front Panel.vi" Type="VI" URL="../Main Codebase/Init Front Panel.vi"/>
