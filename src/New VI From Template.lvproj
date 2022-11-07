@@ -27,6 +27,11 @@
 					<Item Name="Config GUI - Section Header Selected.vi" Type="VI" URL="../Main Codebase/Config GUI - Section Header Selected.vi"/>
 					<Item Name="GUI Objects (cluster).ctl" Type="VI" URL="../Main Codebase/GUI Objects (cluster).ctl"/>
 				</Item>
+				<Item Name="DepthFirstSearch" Type="Folder">
+					<Item Name="DFS Data (cluster).ctl" Type="VI" URL="../Main Codebase/DFS Data (cluster).ctl"/>
+					<Item Name="DFS States (enum).ctl" Type="VI" URL="../Main Codebase/DFS States (enum).ctl"/>
+					<Item Name="Search Virtual Folders (DFS Main).vi" Type="VI" URL="../Main Codebase/Search Virtual Folders (DFS Main).vi"/>
+				</Item>
 				<Item Name="Error Handling" Type="Folder">
 					<Item Name="Error to Dialogue Message.vi" Type="VI" URL="../Main Codebase/Error to Dialogue Message.vi"/>
 					<Item Name="Handle Loop Errors.vi" Type="VI" URL="../Main Codebase/Handle Loop Errors.vi"/>
@@ -80,6 +85,7 @@
 			<Item Name="Sandbox 1 - Add VI to Project.vi" Type="VI" URL="../Main Codebase/Sandbox 1 - Add VI to Project.vi"/>
 			<Item Name="Sandbox 2 - Add VI to lvlib.vi" Type="VI" URL="../Main Codebase/Sandbox 2 - Add VI to lvlib.vi"/>
 			<Item Name="Sandbox 3 - General Testing.vi" Type="VI" URL="../Main Codebase/Sandbox 3 - General Testing.vi"/>
+			<Item Name="Sandbox 4 - Get Virtual Folder Structure.vi" Type="VI" URL="../Main Codebase/Sandbox 4 - Get Virtual Folder Structure.vi"/>
 		</Item>
 		<Item Name="Support Files (do not modify)" Type="Folder">
 			<Item Name="(Note part 1) These CTLs have to be included in the project" Type="Folder"/>
