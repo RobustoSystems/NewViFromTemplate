@@ -28,8 +28,31 @@
 					<Item Name="GUI Objects (cluster).ctl" Type="VI" URL="../Main Codebase/GUI Objects (cluster).ctl"/>
 				</Item>
 				<Item Name="DepthFirstSearch" Type="Folder">
-					<Item Name="DFS Data (cluster).ctl" Type="VI" URL="../Main Codebase/DFS Data (cluster).ctl"/>
-					<Item Name="DFS States (enum).ctl" Type="VI" URL="../Main Codebase/DFS States (enum).ctl"/>
+					<Item Name="Data Structures (Typedefs)" Type="Folder">
+						<Item Name="DFS Child Node (cluster).ctl" Type="VI" URL="../Main Codebase/DFS Child Node (cluster).ctl"/>
+						<Item Name="DFS Data (cluster).ctl" Type="VI" URL="../Main Codebase/DFS Data (cluster).ctl"/>
+						<Item Name="DFS Node (cluster).ctl" Type="VI" URL="../Main Codebase/DFS Node (cluster).ctl"/>
+						<Item Name="DFS States (enum).ctl" Type="VI" URL="../Main Codebase/DFS States (enum).ctl"/>
+					</Item>
+					<Item Name="DFS Actions" Type="Folder">
+						<Item Name="Add Children.vi" Type="VI" URL="../Main Codebase/Add Children.vi"/>
+						<Item Name="Create Node.vi" Type="VI" URL="../Main Codebase/Create Node.vi"/>
+						<Item Name="Get Index Of First Unexplored Child.vi" Type="VI" URL="../Main Codebase/Get Index Of First Unexplored Child.vi"/>
+						<Item Name="Search For VI.vi" Type="VI" URL="../Main Codebase/Search For VI.vi"/>
+					</Item>
+					<Item Name="DFS Data Accessors" Type="Folder">
+						<Item Name="DFS Data - Get Node.vi" Type="VI" URL="../Main Codebase/DFS Data - Get Node.vi"/>
+						<Item Name="DFS Data - Get Number Of Nodes.vi" Type="VI" URL="../Main Codebase/DFS Data - Get Number Of Nodes.vi"/>
+						<Item Name="DFS Data - Init.vi" Type="VI" URL="../Main Codebase/DFS Data - Init.vi"/>
+						<Item Name="DFS Data - Replace Node.vi" Type="VI" URL="../Main Codebase/DFS Data - Replace Node.vi"/>
+						<Item Name="DFS Data - Set Current Index.vi" Type="VI" URL="../Main Codebase/DFS Data - Set Current Index.vi"/>
+					</Item>
+					<Item Name="Project Items[]" Type="Folder">
+						<Item Name="Project Items - Get Names.vi" Type="VI" URL="../Main Codebase/Project Items - Get Names.vi"/>
+						<Item Name="Project Items - Get Owned Items.vi" Type="VI" URL="../Main Codebase/Project Items - Get Owned Items.vi"/>
+						<Item Name="Project Items - Keep Folders.vi" Type="VI" URL="../Main Codebase/Project Items - Keep Folders.vi"/>
+						<Item Name="Project Items - Keep VIs.vi" Type="VI" URL="../Main Codebase/Project Items - Keep VIs.vi"/>
+					</Item>
 					<Item Name="Search Virtual Folders (DFS Main).vi" Type="VI" URL="../Main Codebase/Search Virtual Folders (DFS Main).vi"/>
 				</Item>
 				<Item Name="Error Handling" Type="Folder">
