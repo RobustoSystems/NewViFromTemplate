@@ -37,6 +37,7 @@
 					<Item Name="is valid path.vi" Type="VI" URL="../Main Codebase/is valid path.vi"/>
 				</Item>
 				<Item Name="Filenames" Type="Folder">
+					<Item Name="Filename - Has Block Diagram.vi" Type="VI" URL="../Main Codebase/Filename - Has Block Diagram.vi"/>
 					<Item Name="Filename - Is Class.vi" Type="VI" URL="../Main Codebase/Filename - Is Class.vi"/>
 					<Item Name="Filename - Is CTL.vi" Type="VI" URL="../Main Codebase/Filename - Is CTL.vi"/>
 					<Item Name="Filename - Is CTT.vi" Type="VI" URL="../Main Codebase/Filename - Is CTT.vi"/>
@@ -58,6 +59,7 @@
 					<Item Name="Owner Status (enum).ctl" Type="VI" URL="../Main Codebase/Owner Status (enum).ctl"/>
 					<Item Name="Perform Checks.vi" Type="VI" URL="../Main Codebase/Perform Checks.vi"/>
 					<Item Name="Populate SCL.vi" Type="VI" URL="../Main Codebase/Populate SCL.vi"/>
+					<Item Name="Reset Front Panel Origin.vi" Type="VI" URL="../Main Codebase/Reset Front Panel Origin.vi"/>
 				</Item>
 				<Item Name="SomeTemplatesFound Tab" Type="Folder">
 					<Item Name="Disable GUI Objects inside SomeTemplatesFound Tab.vi" Type="VI" URL="../Main Codebase/Disable GUI Objects inside SomeTemplatesFound Tab.vi"/>
