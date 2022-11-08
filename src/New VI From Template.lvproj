@@ -39,10 +39,12 @@
 						<Item Name="Create Node.vi" Type="VI" URL="../Main Codebase/Create Node.vi"/>
 						<Item Name="Get Index Of First Unexplored Child.vi" Type="VI" URL="../Main Codebase/Get Index Of First Unexplored Child.vi"/>
 						<Item Name="Search For VI.vi" Type="VI" URL="../Main Codebase/Search For VI.vi"/>
+						<Item Name="Set Fully Explored.vi" Type="VI" URL="../Main Codebase/Set Fully Explored.vi"/>
 					</Item>
 					<Item Name="DFS Data Accessors" Type="Folder">
 						<Item Name="DFS Data - Get Node.vi" Type="VI" URL="../Main Codebase/DFS Data - Get Node.vi"/>
 						<Item Name="DFS Data - Get Number Of Nodes.vi" Type="VI" URL="../Main Codebase/DFS Data - Get Number Of Nodes.vi"/>
+						<Item Name="DFS Data - Get Parent Index.vi" Type="VI" URL="../Main Codebase/DFS Data - Get Parent Index.vi"/>
 						<Item Name="DFS Data - Init.vi" Type="VI" URL="../Main Codebase/DFS Data - Init.vi"/>
 						<Item Name="DFS Data - Replace Node.vi" Type="VI" URL="../Main Codebase/DFS Data - Replace Node.vi"/>
 						<Item Name="DFS Data - Set Current Index.vi" Type="VI" URL="../Main Codebase/DFS Data - Set Current Index.vi"/>
@@ -84,6 +86,7 @@
 					<Item Name="Get User VI Owners.vi" Type="VI" URL="../Main Codebase/Get User VI Owners.vi"/>
 					<Item Name="Handle NoTemplatesFound.vi" Type="VI" URL="../Main Codebase/Handle NoTemplatesFound.vi"/>
 					<Item Name="Init Front Panel.vi" Type="VI" URL="../Main Codebase/Init Front Panel.vi"/>
+					<Item Name="Is valid VI filename.vi" Type="VI" URL="../Main Codebase/Is valid VI filename.vi"/>
 					<Item Name="Owner Status (enum).ctl" Type="VI" URL="../Main Codebase/Owner Status (enum).ctl"/>
 					<Item Name="Perform Checks.vi" Type="VI" URL="../Main Codebase/Perform Checks.vi"/>
 					<Item Name="Populate SCL.vi" Type="VI" URL="../Main Codebase/Populate SCL.vi"/>
@@ -109,6 +112,7 @@
 			<Item Name="Sandbox 2 - Add VI to lvlib.vi" Type="VI" URL="../Main Codebase/Sandbox 2 - Add VI to lvlib.vi"/>
 			<Item Name="Sandbox 3 - General Testing.vi" Type="VI" URL="../Main Codebase/Sandbox 3 - General Testing.vi"/>
 			<Item Name="Sandbox 4 - Get Virtual Folder Structure.vi" Type="VI" URL="../Main Codebase/Sandbox 4 - Get Virtual Folder Structure.vi"/>
+			<Item Name="Sandbox 5 - Move a VI from one virtual folder to another.vi" Type="VI" URL="../Main Codebase/Sandbox 5 - Move a VI from one virtual folder to another.vi"/>
 		</Item>
 		<Item Name="Support Files (do not modify)" Type="Folder">
 			<Item Name="(Note part 1) These CTLs have to be included in the project" Type="Folder"/>
