@@ -20,10 +20,14 @@
 					<Item Name="Write TemplatesFolder Key.vi" Type="VI" URL="../Main Codebase/Write TemplatesFolder Key.vi"/>
 				</Item>
 				<Item Name="Config GUI" Type="Folder">
+					<Item Name="Enable/Disable GUI Objects" Type="Folder">
+						<Item Name="Enable GUI Objects.vi" Type="VI" URL="../Main Codebase/Enable GUI Objects.vi"/>
+					</Item>
 					<Item Name="Set Captions" Type="Folder">
 						<Item Name="Set Caption - Add To Library Checkbox.vi" Type="VI" URL="../Main Codebase/Set Caption - Add To Library Checkbox.vi"/>
 					</Item>
 					<Item Name="Config GUI - Add To Project.vi" Type="VI" URL="../Main Codebase/Config GUI - Add To Project.vi"/>
+					<Item Name="Config GUI - Insert Into Virtual Folder.vi" Type="VI" URL="../Main Codebase/Config GUI - Insert Into Virtual Folder.vi"/>
 					<Item Name="Config GUI - Section Header Selected.vi" Type="VI" URL="../Main Codebase/Config GUI - Section Header Selected.vi"/>
 					<Item Name="GUI Objects (cluster).ctl" Type="VI" URL="../Main Codebase/GUI Objects (cluster).ctl"/>
 				</Item>
@@ -32,6 +36,7 @@
 						<Item Name="DFS Child Node (cluster).ctl" Type="VI" URL="../Main Codebase/DFS Child Node (cluster).ctl"/>
 						<Item Name="DFS Data (cluster).ctl" Type="VI" URL="../Main Codebase/DFS Data (cluster).ctl"/>
 						<Item Name="DFS Node (cluster).ctl" Type="VI" URL="../Main Codebase/DFS Node (cluster).ctl"/>
+						<Item Name="DFS Output (cluster).ctl" Type="VI" URL="../Main Codebase/DFS Output (cluster).ctl"/>
 						<Item Name="DFS States (enum).ctl" Type="VI" URL="../Main Codebase/DFS States (enum).ctl"/>
 					</Item>
 					<Item Name="DFS Actions" Type="Folder">
@@ -55,7 +60,7 @@
 						<Item Name="Project Items - Keep Folders.vi" Type="VI" URL="../Main Codebase/Project Items - Keep Folders.vi"/>
 						<Item Name="Project Items - Keep VIs.vi" Type="VI" URL="../Main Codebase/Project Items - Keep VIs.vi"/>
 					</Item>
-					<Item Name="Search Virtual Folders (DFS Main).vi" Type="VI" URL="../Main Codebase/Search Virtual Folders (DFS Main).vi"/>
+					<Item Name="Find VI in ProjectItem (DFS Search).vi" Type="VI" URL="../Main Codebase/Find VI in ProjectItem (DFS Search).vi"/>
 				</Item>
 				<Item Name="Error Handling" Type="Folder">
 					<Item Name="Error to Dialogue Message.vi" Type="VI" URL="../Main Codebase/Error to Dialogue Message.vi"/>
@@ -86,6 +91,7 @@
 					<Item Name="Get User VI Owners.vi" Type="VI" URL="../Main Codebase/Get User VI Owners.vi"/>
 					<Item Name="Handle NoTemplatesFound.vi" Type="VI" URL="../Main Codebase/Handle NoTemplatesFound.vi"/>
 					<Item Name="Init Front Panel.vi" Type="VI" URL="../Main Codebase/Init Front Panel.vi"/>
+					<Item Name="Is There A Single Project Loaded In Memory.vi" Type="VI" URL="../Main Codebase/Is There A Single Project Loaded In Memory.vi"/>
 					<Item Name="Is valid VI filename.vi" Type="VI" URL="../Main Codebase/Is valid VI filename.vi"/>
 					<Item Name="Owner Status (enum).ctl" Type="VI" URL="../Main Codebase/Owner Status (enum).ctl"/>
 					<Item Name="Perform Checks.vi" Type="VI" URL="../Main Codebase/Perform Checks.vi"/>
@@ -132,6 +138,7 @@
 				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
 				<Item Name="Create Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Create Registry Key.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="LVFontTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVFontTypeDef.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
@@ -153,6 +160,7 @@
 				<Item Name="Registry Simplify Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Simplify Data Type.vi"/>
 				<Item Name="Registry View.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry View.ctl"/>
 				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
+				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="Write Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value DWORD.vi"/>
