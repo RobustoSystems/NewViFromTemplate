@@ -21,6 +21,8 @@
 				</Item>
 				<Item Name="Config GUI" Type="Folder">
 					<Item Name="Enable/Disable GUI Objects" Type="Folder">
+						<Item Name="Disable And Grey Out GUI Objects.vi" Type="VI" URL="../Main Codebase/Disable And Grey Out GUI Objects.vi"/>
+						<Item Name="Disable GUI Objects.vi" Type="VI" URL="../Main Codebase/Disable GUI Objects.vi"/>
 						<Item Name="Enable GUI Objects.vi" Type="VI" URL="../Main Codebase/Enable GUI Objects.vi"/>
 					</Item>
 					<Item Name="Set Captions" Type="Folder">
@@ -107,8 +109,8 @@
 					<Item Name="Testing Flag (enum).ctl" Type="VI" URL="../Main Codebase/Testing Flag (enum).ctl"/>
 					<Item Name="Testing Flag (library variable).vi" Type="VI" URL="../Main Codebase/Testing Flag (library variable).vi"/>
 				</Item>
+				<Item Name="Execute New VI From Template.vi" Type="VI" URL="../Main Codebase/Execute New VI From Template.vi"/>
 			</Item>
-			<Item Name="Execute New VI From Template.vi" Type="VI" URL="../Main Codebase/Execute New VI From Template.vi"/>
 		</Item>
 		<Item Name="Menu Builder" Type="Folder">
 			<Item Name="New VI From Template.vi" Type="VI" URL="../Main Codebase/New VI From Template.vi"/>
@@ -138,7 +140,6 @@
 				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
 				<Item Name="Create Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Create Registry Key.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="LVFontTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVFontTypeDef.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
@@ -214,7 +215,7 @@ b) for only one LabVIEW version to use the tool, use: "C:\Program Files (x86)\Na
 				<Property Name="Source[0].itemID" Type="Str">{71FDB3AB-23D1-42BE-B41C-965579D54B41}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Execute/Execute New VI From Template.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Execute/SubVIs/Execute New VI From Template.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[1].VI.LLBtopLevel" Type="Bool">true</Property>
