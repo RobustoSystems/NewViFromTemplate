@@ -13,104 +13,103 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Execute" Type="Folder">
-			<Item Name="SubVIs" Type="Folder">
-				<Item Name="App Settings (Windows Registry)" Type="Folder">
-					<Item Name="Read TemplatesFolder Key.vi" Type="VI" URL="../Main Codebase/Read TemplatesFolder Key.vi"/>
-					<Item Name="Reg Key Constants.vi" Type="VI" URL="../Main Codebase/Reg Key Constants.vi"/>
-					<Item Name="Write TemplatesFolder Key.vi" Type="VI" URL="../Main Codebase/Write TemplatesFolder Key.vi"/>
-				</Item>
-				<Item Name="Config GUI" Type="Folder">
-					<Item Name="Enable/Disable GUI Objects" Type="Folder">
-						<Item Name="Disable And Grey Out GUI Objects.vi" Type="VI" URL="../Main Codebase/Disable And Grey Out GUI Objects.vi"/>
-						<Item Name="Disable GUI Objects.vi" Type="VI" URL="../Main Codebase/Disable GUI Objects.vi"/>
-						<Item Name="Enable GUI Objects.vi" Type="VI" URL="../Main Codebase/Enable GUI Objects.vi"/>
-					</Item>
-					<Item Name="Set Captions" Type="Folder">
-						<Item Name="Set Caption - Add To Library Checkbox.vi" Type="VI" URL="../Main Codebase/Set Caption - Add To Library Checkbox.vi"/>
-					</Item>
-					<Item Name="Config GUI - Add To Project.vi" Type="VI" URL="../Main Codebase/Config GUI - Add To Project.vi"/>
-					<Item Name="Config GUI - Insert Into Virtual Folder.vi" Type="VI" URL="../Main Codebase/Config GUI - Insert Into Virtual Folder.vi"/>
-					<Item Name="Config GUI - Section Header Selected.vi" Type="VI" URL="../Main Codebase/Config GUI - Section Header Selected.vi"/>
-					<Item Name="GUI Objects (cluster).ctl" Type="VI" URL="../Main Codebase/GUI Objects (cluster).ctl"/>
-				</Item>
-				<Item Name="DepthFirstSearch" Type="Folder">
-					<Item Name="Data Structures (Typedefs)" Type="Folder">
-						<Item Name="DFS Child Node (cluster).ctl" Type="VI" URL="../Main Codebase/DFS Child Node (cluster).ctl"/>
-						<Item Name="DFS Data (cluster).ctl" Type="VI" URL="../Main Codebase/DFS Data (cluster).ctl"/>
-						<Item Name="DFS Node (cluster).ctl" Type="VI" URL="../Main Codebase/DFS Node (cluster).ctl"/>
-						<Item Name="DFS Output (cluster).ctl" Type="VI" URL="../Main Codebase/DFS Output (cluster).ctl"/>
-						<Item Name="DFS States (enum).ctl" Type="VI" URL="../Main Codebase/DFS States (enum).ctl"/>
-					</Item>
-					<Item Name="DFS Actions" Type="Folder">
-						<Item Name="Add Children.vi" Type="VI" URL="../Main Codebase/Add Children.vi"/>
-						<Item Name="Create Node.vi" Type="VI" URL="../Main Codebase/Create Node.vi"/>
-						<Item Name="Get Index Of First Unexplored Child.vi" Type="VI" URL="../Main Codebase/Get Index Of First Unexplored Child.vi"/>
-						<Item Name="Search For VI.vi" Type="VI" URL="../Main Codebase/Search For VI.vi"/>
-						<Item Name="Set Fully Explored.vi" Type="VI" URL="../Main Codebase/Set Fully Explored.vi"/>
-					</Item>
-					<Item Name="DFS Data Accessors" Type="Folder">
-						<Item Name="DFS Data - Get Node.vi" Type="VI" URL="../Main Codebase/DFS Data - Get Node.vi"/>
-						<Item Name="DFS Data - Get Number Of Nodes.vi" Type="VI" URL="../Main Codebase/DFS Data - Get Number Of Nodes.vi"/>
-						<Item Name="DFS Data - Get Parent Index.vi" Type="VI" URL="../Main Codebase/DFS Data - Get Parent Index.vi"/>
-						<Item Name="DFS Data - Init.vi" Type="VI" URL="../Main Codebase/DFS Data - Init.vi"/>
-						<Item Name="DFS Data - Replace Node.vi" Type="VI" URL="../Main Codebase/DFS Data - Replace Node.vi"/>
-						<Item Name="DFS Data - Set Current Index.vi" Type="VI" URL="../Main Codebase/DFS Data - Set Current Index.vi"/>
-					</Item>
-					<Item Name="Project Items[]" Type="Folder">
-						<Item Name="Project Items - Get Names.vi" Type="VI" URL="../Main Codebase/Project Items - Get Names.vi"/>
-						<Item Name="Project Items - Get Owned Items.vi" Type="VI" URL="../Main Codebase/Project Items - Get Owned Items.vi"/>
-						<Item Name="Project Items - Keep Folders.vi" Type="VI" URL="../Main Codebase/Project Items - Keep Folders.vi"/>
-						<Item Name="Project Items - Keep VIs.vi" Type="VI" URL="../Main Codebase/Project Items - Keep VIs.vi"/>
-					</Item>
-					<Item Name="Find VI in ProjectItem (DFS Search).vi" Type="VI" URL="../Main Codebase/Find VI in ProjectItem (DFS Search).vi"/>
-				</Item>
-				<Item Name="Error Handling" Type="Folder">
-					<Item Name="Error to Dialogue Message.vi" Type="VI" URL="../Main Codebase/Error to Dialogue Message.vi"/>
-					<Item Name="Handle Loop Errors.vi" Type="VI" URL="../Main Codebase/Handle Loop Errors.vi"/>
-					<Item Name="Throw Error (no overwrite).vi" Type="VI" URL="../Main Codebase/Throw Error (no overwrite).vi"/>
-				</Item>
-				<Item Name="File System" Type="Folder">
-					<Item Name="is directory.vi" Type="VI" URL="../Main Codebase/is directory.vi"/>
-					<Item Name="is valid path.vi" Type="VI" URL="../Main Codebase/is valid path.vi"/>
-				</Item>
-				<Item Name="Filenames" Type="Folder">
-					<Item Name="Filename - Has Block Diagram.vi" Type="VI" URL="../Main Codebase/Filename - Has Block Diagram.vi"/>
-					<Item Name="Filename - Is Class.vi" Type="VI" URL="../Main Codebase/Filename - Is Class.vi"/>
-					<Item Name="Filename - Is CTL.vi" Type="VI" URL="../Main Codebase/Filename - Is CTL.vi"/>
-					<Item Name="Filename - Is CTT.vi" Type="VI" URL="../Main Codebase/Filename - Is CTT.vi"/>
-					<Item Name="Filename - Is Project Library.vi" Type="VI" URL="../Main Codebase/Filename - Is Project Library.vi"/>
-					<Item Name="Filename - Is VI.vi" Type="VI" URL="../Main Codebase/Filename - Is VI.vi"/>
-					<Item Name="Filename - Is VIT.vi" Type="VI" URL="../Main Codebase/Filename - Is VIT.vi"/>
-				</Item>
-				<Item Name="Misc VIs" Type="Folder">
-					<Item Name="Add VI to Owner Library or Class.vi" Type="VI" URL="../Main Codebase/Add VI to Owner Library or Class.vi"/>
-					<Item Name="Add VI to Project.vi" Type="VI" URL="../Main Codebase/Add VI to Project.vi"/>
-					<Item Name="Close Front Panel.vi" Type="VI" URL="../Main Codebase/Close Front Panel.vi"/>
-					<Item Name="Close VI Reference.vi" Type="VI" URL="../Main Codebase/Close VI Reference.vi"/>
-					<Item Name="Create New VI or CTL From Template.vi" Type="VI" URL="../Main Codebase/Create New VI or CTL From Template.vi"/>
-					<Item Name="Get Destination Folder.vi" Type="VI" URL="../Main Codebase/Get Destination Folder.vi"/>
-					<Item Name="Get SCL Selected Item.vi" Type="VI" URL="../Main Codebase/Get SCL Selected Item.vi"/>
-					<Item Name="Get User VI Owners.vi" Type="VI" URL="../Main Codebase/Get User VI Owners.vi"/>
-					<Item Name="Handle NoTemplatesFound.vi" Type="VI" URL="../Main Codebase/Handle NoTemplatesFound.vi"/>
-					<Item Name="Init Front Panel.vi" Type="VI" URL="../Main Codebase/Init Front Panel.vi"/>
-					<Item Name="Is There A Single Project Loaded In Memory.vi" Type="VI" URL="../Main Codebase/Is There A Single Project Loaded In Memory.vi"/>
-					<Item Name="Is valid VI filename.vi" Type="VI" URL="../Main Codebase/Is valid VI filename.vi"/>
-					<Item Name="Owner Status (enum).ctl" Type="VI" URL="../Main Codebase/Owner Status (enum).ctl"/>
-					<Item Name="Perform Checks.vi" Type="VI" URL="../Main Codebase/Perform Checks.vi"/>
-					<Item Name="Populate SCL.vi" Type="VI" URL="../Main Codebase/Populate SCL.vi"/>
-					<Item Name="Reset Front Panel Origin.vi" Type="VI" URL="../Main Codebase/Reset Front Panel Origin.vi"/>
-				</Item>
-				<Item Name="SomeTemplatesFound Tab" Type="Folder">
-					<Item Name="Disable GUI Objects inside SomeTemplatesFound Tab.vi" Type="VI" URL="../Main Codebase/Disable GUI Objects inside SomeTemplatesFound Tab.vi"/>
-					<Item Name="Enable GUI Objects inside SomeTemplatesFound Tab.vi" Type="VI" URL="../Main Codebase/Enable GUI Objects inside SomeTemplatesFound Tab.vi"/>
-					<Item Name="Get Refs of GUI Objects inside SomeTemplatesFound Tab.vi" Type="VI" URL="../Main Codebase/Get Refs of GUI Objects inside SomeTemplatesFound Tab.vi"/>
-				</Item>
-				<Item Name="Testing Flag" Type="Folder">
-					<Item Name="Testing Flag (enum).ctl" Type="VI" URL="../Main Codebase/Testing Flag (enum).ctl"/>
-					<Item Name="Testing Flag (library variable).vi" Type="VI" URL="../Main Codebase/Testing Flag (library variable).vi"/>
-				</Item>
-				<Item Name="Execute New VI From Template.vi" Type="VI" URL="../Main Codebase/Execute New VI From Template.vi"/>
+			<Item Name="App Settings (Windows Registry)" Type="Folder">
+				<Item Name="Read TemplatesFolder Key.vi" Type="VI" URL="../Main Codebase/Read TemplatesFolder Key.vi"/>
+				<Item Name="Reg Key Constants.vi" Type="VI" URL="../Main Codebase/Reg Key Constants.vi"/>
+				<Item Name="Write TemplatesFolder Key.vi" Type="VI" URL="../Main Codebase/Write TemplatesFolder Key.vi"/>
 			</Item>
+			<Item Name="Config GUI" Type="Folder">
+				<Item Name="Enable/Disable GUI Objects" Type="Folder">
+					<Item Name="Disable And Grey Out GUI Objects.vi" Type="VI" URL="../Main Codebase/Disable And Grey Out GUI Objects.vi"/>
+					<Item Name="Disable GUI Objects.vi" Type="VI" URL="../Main Codebase/Disable GUI Objects.vi"/>
+					<Item Name="Enable GUI Objects.vi" Type="VI" URL="../Main Codebase/Enable GUI Objects.vi"/>
+				</Item>
+				<Item Name="Set Captions" Type="Folder">
+					<Item Name="Set Caption - Add To Library Checkbox.vi" Type="VI" URL="../Main Codebase/Set Caption - Add To Library Checkbox.vi"/>
+				</Item>
+				<Item Name="Config GUI - Add To Project.vi" Type="VI" URL="../Main Codebase/Config GUI - Add To Project.vi"/>
+				<Item Name="Config GUI - Insert Into Virtual Folder.vi" Type="VI" URL="../Main Codebase/Config GUI - Insert Into Virtual Folder.vi"/>
+				<Item Name="Config GUI - Section Header Selected.vi" Type="VI" URL="../Main Codebase/Config GUI - Section Header Selected.vi"/>
+				<Item Name="GUI Objects (cluster).ctl" Type="VI" URL="../Main Codebase/GUI Objects (cluster).ctl"/>
+			</Item>
+			<Item Name="DepthFirstSearch" Type="Folder">
+				<Item Name="Data Structures (Typedefs)" Type="Folder">
+					<Item Name="DFS Child Node (cluster).ctl" Type="VI" URL="../Main Codebase/DFS Child Node (cluster).ctl"/>
+					<Item Name="DFS Data (cluster).ctl" Type="VI" URL="../Main Codebase/DFS Data (cluster).ctl"/>
+					<Item Name="DFS Node (cluster).ctl" Type="VI" URL="../Main Codebase/DFS Node (cluster).ctl"/>
+					<Item Name="DFS Output (cluster).ctl" Type="VI" URL="../Main Codebase/DFS Output (cluster).ctl"/>
+					<Item Name="DFS States (enum).ctl" Type="VI" URL="../Main Codebase/DFS States (enum).ctl"/>
+				</Item>
+				<Item Name="DFS Actions" Type="Folder">
+					<Item Name="Add Children.vi" Type="VI" URL="../Main Codebase/Add Children.vi"/>
+					<Item Name="Create Node.vi" Type="VI" URL="../Main Codebase/Create Node.vi"/>
+					<Item Name="Get Index Of First Unexplored Child.vi" Type="VI" URL="../Main Codebase/Get Index Of First Unexplored Child.vi"/>
+					<Item Name="Search For VI.vi" Type="VI" URL="../Main Codebase/Search For VI.vi"/>
+					<Item Name="Set Fully Explored.vi" Type="VI" URL="../Main Codebase/Set Fully Explored.vi"/>
+				</Item>
+				<Item Name="DFS Data Accessors" Type="Folder">
+					<Item Name="DFS Data - Get Node.vi" Type="VI" URL="../Main Codebase/DFS Data - Get Node.vi"/>
+					<Item Name="DFS Data - Get Number Of Nodes.vi" Type="VI" URL="../Main Codebase/DFS Data - Get Number Of Nodes.vi"/>
+					<Item Name="DFS Data - Get Parent Index.vi" Type="VI" URL="../Main Codebase/DFS Data - Get Parent Index.vi"/>
+					<Item Name="DFS Data - Init.vi" Type="VI" URL="../Main Codebase/DFS Data - Init.vi"/>
+					<Item Name="DFS Data - Replace Node.vi" Type="VI" URL="../Main Codebase/DFS Data - Replace Node.vi"/>
+					<Item Name="DFS Data - Set Current Index.vi" Type="VI" URL="../Main Codebase/DFS Data - Set Current Index.vi"/>
+				</Item>
+				<Item Name="Project Items[]" Type="Folder">
+					<Item Name="Project Items - Get Names.vi" Type="VI" URL="../Main Codebase/Project Items - Get Names.vi"/>
+					<Item Name="Project Items - Get Owned Items.vi" Type="VI" URL="../Main Codebase/Project Items - Get Owned Items.vi"/>
+					<Item Name="Project Items - Keep Folders.vi" Type="VI" URL="../Main Codebase/Project Items - Keep Folders.vi"/>
+					<Item Name="Project Items - Keep VIs.vi" Type="VI" URL="../Main Codebase/Project Items - Keep VIs.vi"/>
+				</Item>
+				<Item Name="Find VI in ProjectItem (DFS Search).vi" Type="VI" URL="../Main Codebase/Find VI in ProjectItem (DFS Search).vi"/>
+			</Item>
+			<Item Name="Error Handling" Type="Folder">
+				<Item Name="Error to Dialogue Message.vi" Type="VI" URL="../Main Codebase/Error to Dialogue Message.vi"/>
+				<Item Name="Handle Loop Errors.vi" Type="VI" URL="../Main Codebase/Handle Loop Errors.vi"/>
+				<Item Name="Throw Error (no overwrite).vi" Type="VI" URL="../Main Codebase/Throw Error (no overwrite).vi"/>
+			</Item>
+			<Item Name="File System" Type="Folder">
+				<Item Name="is directory.vi" Type="VI" URL="../Main Codebase/is directory.vi"/>
+				<Item Name="is valid path.vi" Type="VI" URL="../Main Codebase/is valid path.vi"/>
+			</Item>
+			<Item Name="Filenames" Type="Folder">
+				<Item Name="Filename - Has Block Diagram.vi" Type="VI" URL="../Main Codebase/Filename - Has Block Diagram.vi"/>
+				<Item Name="Filename - Is Class.vi" Type="VI" URL="../Main Codebase/Filename - Is Class.vi"/>
+				<Item Name="Filename - Is CTL.vi" Type="VI" URL="../Main Codebase/Filename - Is CTL.vi"/>
+				<Item Name="Filename - Is CTT.vi" Type="VI" URL="../Main Codebase/Filename - Is CTT.vi"/>
+				<Item Name="Filename - Is Project Library.vi" Type="VI" URL="../Main Codebase/Filename - Is Project Library.vi"/>
+				<Item Name="Filename - Is VI.vi" Type="VI" URL="../Main Codebase/Filename - Is VI.vi"/>
+				<Item Name="Filename - Is VIT.vi" Type="VI" URL="../Main Codebase/Filename - Is VIT.vi"/>
+			</Item>
+			<Item Name="Misc VIs" Type="Folder">
+				<Item Name="Add VI to Owner Library or Class.vi" Type="VI" URL="../Main Codebase/Add VI to Owner Library or Class.vi"/>
+				<Item Name="Add VI to Project.vi" Type="VI" URL="../Main Codebase/Add VI to Project.vi"/>
+				<Item Name="Close Front Panel.vi" Type="VI" URL="../Main Codebase/Close Front Panel.vi"/>
+				<Item Name="Close VI Reference.vi" Type="VI" URL="../Main Codebase/Close VI Reference.vi"/>
+				<Item Name="Create New VI or CTL From Template.vi" Type="VI" URL="../Main Codebase/Create New VI or CTL From Template.vi"/>
+				<Item Name="Get Destination Folder.vi" Type="VI" URL="../Main Codebase/Get Destination Folder.vi"/>
+				<Item Name="Get LabVIEW Version Year.vi" Type="VI" URL="../Main Codebase/Get LabVIEW Version Year.vi"/>
+				<Item Name="Get SCL Selected Item.vi" Type="VI" URL="../Main Codebase/Get SCL Selected Item.vi"/>
+				<Item Name="Get User VI Owners.vi" Type="VI" URL="../Main Codebase/Get User VI Owners.vi"/>
+				<Item Name="Handle NoTemplatesFound.vi" Type="VI" URL="../Main Codebase/Handle NoTemplatesFound.vi"/>
+				<Item Name="Init Front Panel.vi" Type="VI" URL="../Main Codebase/Init Front Panel.vi"/>
+				<Item Name="Is There A Single Project Loaded In Memory.vi" Type="VI" URL="../Main Codebase/Is There A Single Project Loaded In Memory.vi"/>
+				<Item Name="Is valid VI filename.vi" Type="VI" URL="../Main Codebase/Is valid VI filename.vi"/>
+				<Item Name="Owner Status (enum).ctl" Type="VI" URL="../Main Codebase/Owner Status (enum).ctl"/>
+				<Item Name="Perform Checks.vi" Type="VI" URL="../Main Codebase/Perform Checks.vi"/>
+				<Item Name="Populate SCL.vi" Type="VI" URL="../Main Codebase/Populate SCL.vi"/>
+				<Item Name="Reset Front Panel Origin.vi" Type="VI" URL="../Main Codebase/Reset Front Panel Origin.vi"/>
+			</Item>
+			<Item Name="SomeTemplatesFound Tab" Type="Folder">
+				<Item Name="Disable GUI Objects inside SomeTemplatesFound Tab.vi" Type="VI" URL="../Main Codebase/Disable GUI Objects inside SomeTemplatesFound Tab.vi"/>
+				<Item Name="Enable GUI Objects inside SomeTemplatesFound Tab.vi" Type="VI" URL="../Main Codebase/Enable GUI Objects inside SomeTemplatesFound Tab.vi"/>
+				<Item Name="Get Refs of GUI Objects inside SomeTemplatesFound Tab.vi" Type="VI" URL="../Main Codebase/Get Refs of GUI Objects inside SomeTemplatesFound Tab.vi"/>
+			</Item>
+			<Item Name="Testing Flag" Type="Folder">
+				<Item Name="Testing Flag (enum).ctl" Type="VI" URL="../Main Codebase/Testing Flag (enum).ctl"/>
+				<Item Name="Testing Flag (library variable).vi" Type="VI" URL="../Main Codebase/Testing Flag (library variable).vi"/>
+			</Item>
+			<Item Name="Execute New VI From Template.vi" Type="VI" URL="../Main Codebase/Execute New VI From Template.vi"/>
 		</Item>
 		<Item Name="Menu Builder" Type="Folder">
 			<Item Name="New VI From Template.vi" Type="VI" URL="../Main Codebase/New VI From Template.vi"/>
@@ -121,6 +120,7 @@
 			<Item Name="Sandbox 3 - General Testing.vi" Type="VI" URL="../Main Codebase/Sandbox 3 - General Testing.vi"/>
 			<Item Name="Sandbox 4 - Get Virtual Folder Structure.vi" Type="VI" URL="../Main Codebase/Sandbox 4 - Get Virtual Folder Structure.vi"/>
 			<Item Name="Sandbox 5 - Move a VI from one virtual folder to another.vi" Type="VI" URL="../Main Codebase/Sandbox 5 - Move a VI from one virtual folder to another.vi"/>
+			<Item Name="Sandbox 6 - To be used.vi" Type="VI" URL="../Main Codebase/Sandbox 6 - To be used.vi"/>
 		</Item>
 		<Item Name="Support Files (do not modify)" Type="Folder">
 			<Item Name="(Note part 1) These CTLs have to be included in the project" Type="Folder"/>
@@ -215,14 +215,14 @@ b) for only one LabVIEW version to use the tool, use: "C:\Program Files (x86)\Na
 				<Property Name="Source[0].itemID" Type="Str">{71FDB3AB-23D1-42BE-B41C-965579D54B41}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Execute/SubVIs/Execute New VI From Template.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Execute/Execute New VI From Template.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[1].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[10].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[10].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Execute/SubVIs</Property>
+				<Property Name="Source[10].itemID" Type="Ref"></Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">Container</Property>
 				<Property Name="Source[11].Container.applyInclusion" Type="Bool">true</Property>
