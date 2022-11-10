@@ -77,6 +77,13 @@
 				<Item Name="is valid path.vi" Type="VI" URL="../Main Codebase/is valid path.vi"/>
 			</Item>
 			<Item Name="Filenames" Type="Folder">
+				<Item Name="Generate Random Filenames" Type="Folder">
+					<Item Name="ASCII Character Type.ctl" Type="VI" URL="../Main Codebase/ASCII Character Type.ctl"/>
+					<Item Name="Generate Random ASCII Character.vi" Type="VI" URL="../Main Codebase/Generate Random ASCII Character.vi"/>
+					<Item Name="Generate Random Filename.vi" Type="VI" URL="../Main Codebase/Generate Random Filename.vi"/>
+					<Item Name="Generate Random String.vi" Type="VI" URL="../Main Codebase/Generate Random String.vi"/>
+				</Item>
+				<Item Name="Ensure Filename Has Extension.vi" Type="VI" URL="../Main Codebase/Ensure Filename Has Extension.vi"/>
 				<Item Name="Filename - Has Block Diagram.vi" Type="VI" URL="../Main Codebase/Filename - Has Block Diagram.vi"/>
 				<Item Name="Filename - Is Class.vi" Type="VI" URL="../Main Codebase/Filename - Is Class.vi"/>
 				<Item Name="Filename - Is CTL.vi" Type="VI" URL="../Main Codebase/Filename - Is CTL.vi"/>
@@ -84,12 +91,9 @@
 				<Item Name="Filename - Is Project Library.vi" Type="VI" URL="../Main Codebase/Filename - Is Project Library.vi"/>
 				<Item Name="Filename - Is VI.vi" Type="VI" URL="../Main Codebase/Filename - Is VI.vi"/>
 				<Item Name="Filename - Is VIT.vi" Type="VI" URL="../Main Codebase/Filename - Is VIT.vi"/>
-			</Item>
-			<Item Name="Generate Random Filenames" Type="Folder">
-				<Item Name="ASCII Character Type.ctl" Type="VI" URL="../Main Codebase/ASCII Character Type.ctl"/>
-				<Item Name="Generate Random ASCII Character.vi" Type="VI" URL="../Main Codebase/Generate Random ASCII Character.vi"/>
-				<Item Name="Generate Random Filename.vi" Type="VI" URL="../Main Codebase/Generate Random Filename.vi"/>
-				<Item Name="Generate Random String.vi" Type="VI" URL="../Main Codebase/Generate Random String.vi"/>
+				<Item Name="Get Desired File Extension.vi" Type="VI" URL="../Main Codebase/Get Desired File Extension.vi"/>
+				<Item Name="Get New Filepath.vi" Type="VI" URL="../Main Codebase/Get New Filepath.vi"/>
+				<Item Name="Output File Extension (enum).ctl" Type="VI" URL="../Main Codebase/Output File Extension (enum).ctl"/>
 			</Item>
 			<Item Name="Misc VIs" Type="Folder">
 				<Item Name="Add VI to Owner Library or Class.vi" Type="VI" URL="../Main Codebase/Add VI to Owner Library or Class.vi"/>
@@ -179,6 +183,9 @@
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value DWORD.vi"/>
 				<Item Name="Write Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value Simple STR.vi"/>
 				<Item Name="Write Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value Simple U32.vi"/>
