@@ -18,6 +18,10 @@
 				<Item Name="Reg Key Constants.vi" Type="VI" URL="../Main Codebase/Reg Key Constants.vi"/>
 				<Item Name="Write TemplatesFolder Key.vi" Type="VI" URL="../Main Codebase/Write TemplatesFolder Key.vi"/>
 			</Item>
+			<Item Name="Close References" Type="Folder">
+				<Item Name="Close Library Reference.vi" Type="VI" URL="../Main Codebase/Close Library Reference.vi"/>
+				<Item Name="Close VI Reference.vi" Type="VI" URL="../Main Codebase/Close VI Reference.vi"/>
+			</Item>
 			<Item Name="Config GUI" Type="Folder">
 				<Item Name="Enable/Disable GUI Objects" Type="Folder">
 					<Item Name="Disable And Grey Out GUI Objects.vi" Type="VI" URL="../Main Codebase/Disable And Grey Out GUI Objects.vi"/>
@@ -81,15 +85,21 @@
 				<Item Name="Filename - Is VI.vi" Type="VI" URL="../Main Codebase/Filename - Is VI.vi"/>
 				<Item Name="Filename - Is VIT.vi" Type="VI" URL="../Main Codebase/Filename - Is VIT.vi"/>
 			</Item>
+			<Item Name="Generate Random Filenames" Type="Folder">
+				<Item Name="ASCII Character Type.ctl" Type="VI" URL="../Main Codebase/ASCII Character Type.ctl"/>
+				<Item Name="Generate Random ASCII Character.vi" Type="VI" URL="../Main Codebase/Generate Random ASCII Character.vi"/>
+				<Item Name="Generate Random Filename.vi" Type="VI" URL="../Main Codebase/Generate Random Filename.vi"/>
+				<Item Name="Generate Random String.vi" Type="VI" URL="../Main Codebase/Generate Random String.vi"/>
+			</Item>
 			<Item Name="Misc VIs" Type="Folder">
 				<Item Name="Add VI to Owner Library or Class.vi" Type="VI" URL="../Main Codebase/Add VI to Owner Library or Class.vi"/>
 				<Item Name="Add VI to Project.vi" Type="VI" URL="../Main Codebase/Add VI to Project.vi"/>
 				<Item Name="Close Front Panel.vi" Type="VI" URL="../Main Codebase/Close Front Panel.vi"/>
-				<Item Name="Close VI Reference.vi" Type="VI" URL="../Main Codebase/Close VI Reference.vi"/>
 				<Item Name="Create New VI or CTL From Template.vi" Type="VI" URL="../Main Codebase/Create New VI or CTL From Template.vi"/>
 				<Item Name="Get Destination Folder.vi" Type="VI" URL="../Main Codebase/Get Destination Folder.vi"/>
 				<Item Name="Get LabVIEW Version Year.vi" Type="VI" URL="../Main Codebase/Get LabVIEW Version Year.vi"/>
 				<Item Name="Get SCL Selected Item.vi" Type="VI" URL="../Main Codebase/Get SCL Selected Item.vi"/>
+				<Item Name="Get Selected Project Reference.vi" Type="VI" URL="../Main Codebase/Get Selected Project Reference.vi"/>
 				<Item Name="Get User VI Owners.vi" Type="VI" URL="../Main Codebase/Get User VI Owners.vi"/>
 				<Item Name="Handle NoTemplatesFound.vi" Type="VI" URL="../Main Codebase/Handle NoTemplatesFound.vi"/>
 				<Item Name="Init Front Panel.vi" Type="VI" URL="../Main Codebase/Init Front Panel.vi"/>
@@ -148,6 +158,10 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
+				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
+				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
+				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
+				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
 				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
 				<Item Name="Read Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple U32.vi"/>
@@ -163,6 +177,7 @@
 				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
+				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="Write Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value DWORD.vi"/>
 				<Item Name="Write Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value Simple STR.vi"/>
