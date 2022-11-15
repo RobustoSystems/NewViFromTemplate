@@ -1,7 +1,7 @@
+<a href="https://www.vipm.io/package/robusto_systems_lib_new_vi_from_template_(right_click_menu_plugin)/"> <img src="https://www.vipm.io/package/robusto_systems_lib_new_vi_from_template_(right_click_menu_plugin)/badge.svg?metric=installs"></a> <a href="https://www.vipm.io/package/robusto_systems_lib_new_vi_from_template_(right_click_menu_plugin)/"><img src="https://www.vipm.io/package/robusto_systems_lib_new_vi_from_template_(right_click_menu_plugin)/badge.svg?metric=stars"></a>
+
 # NewViFromTemplate
 Free, open-source LabVIEW IDE extension (right-click menu plugin) that helps create new VIs and CTLs based on templates
-
-<a href="https://www.vipm.io/package/robusto_systems_lib_new_vi_from_template_(right_click_menu_plugin)/"> <img src="https://www.vipm.io/package/robusto_systems_lib_new_vi_from_template_(right_click_menu_plugin)/badge.svg?metric=installs"></a> <a href="https://www.vipm.io/package/robusto_systems_lib_new_vi_from_template_(right_click_menu_plugin)/"><img src="https://www.vipm.io/package/robusto_systems_lib_new_vi_from_template_(right_click_menu_plugin)/badge.svg?metric=stars"></a>
 
 ![New VI From Template GUI](https://user-images.githubusercontent.com/34945974/201953831-3cf0f729-f0b5-44e0-b0cc-e78335555ee8.png)
 
