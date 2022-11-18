@@ -107,6 +107,7 @@
 				<Item Name="Get User VI Owners.vi" Type="VI" URL="../Main Codebase/Get User VI Owners.vi"/>
 				<Item Name="Handle NoTemplatesFound.vi" Type="VI" URL="../Main Codebase/Handle NoTemplatesFound.vi"/>
 				<Item Name="Init Front Panel.vi" Type="VI" URL="../Main Codebase/Init Front Panel.vi"/>
+				<Item Name="Is ProjectItem an lvproj, lvlib, or lvclass.vi" Type="VI" URL="../Main Codebase/Is ProjectItem an lvproj, lvlib, or lvclass.vi"/>
 				<Item Name="Is There A Single Project Loaded In Memory.vi" Type="VI" URL="../Main Codebase/Is There A Single Project Loaded In Memory.vi"/>
 				<Item Name="Is valid VI filename.vi" Type="VI" URL="../Main Codebase/Is valid VI filename.vi"/>
 				<Item Name="Owner Status (enum).ctl" Type="VI" URL="../Main Codebase/Owner Status (enum).ctl"/>
