@@ -30,11 +30,14 @@
 				</Item>
 				<Item Name="Set Captions" Type="Folder">
 					<Item Name="Set Caption - Add To Library Checkbox.vi" Type="VI" URL="../Main Codebase/Set Caption - Add To Library Checkbox.vi"/>
+					<Item Name="Set Tickbox Caption.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Set Tickbox Caption.vi"/>
 				</Item>
+				<Item Name="Clear ComboBox.vi" Type="VI" URL="../Main Codebase/Clear ComboBox.vi"/>
+				<Item Name="Clear String.vi" Type="VI" URL="../Main Codebase/Clear String.vi"/>
 				<Item Name="Config GUI - Add To Project.vi" Type="VI" URL="../Main Codebase/Config GUI - Add To Project.vi"/>
 				<Item Name="Config GUI - Insert Into Virtual Folder.vi" Type="VI" URL="../Main Codebase/Config GUI - Insert Into Virtual Folder.vi"/>
 				<Item Name="Config GUI - Section Header Selected.vi" Type="VI" URL="../Main Codebase/Config GUI - Section Header Selected.vi"/>
-				<Item Name="GUI Objects (cluster).ctl" Type="VI" URL="../Main Codebase/GUI Objects (cluster).ctl"/>
+				<Item Name="GUI Object Refs (cluster).ctl" Type="VI" URL="../Main Codebase/GUI Object Refs (cluster).ctl"/>
 			</Item>
 			<Item Name="DepthFirstSearch" Type="Folder">
 				<Item Name="Data Structures (Typedefs)" Type="Folder">
@@ -96,6 +99,11 @@
 				<Item Name="Output File Extension (enum).ctl" Type="VI" URL="../Main Codebase/Output File Extension (enum).ctl"/>
 			</Item>
 			<Item Name="GUI Manager Module" Type="Folder">
+				<Item Name="API VIs" Type="Folder">
+					<Item Name="API Close Module.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/API Close Module.vi"/>
+					<Item Name="API Init Module.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/API Init Module.vi"/>
+					<Item Name="API Init Tickboxes.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/API Init Tickboxes.vi"/>
+				</Item>
 				<Item Name="MHL Queue" Type="Folder">
 					<Item Name="Typedefs" Type="Folder">
 						<Item Name="Command.ctl" Type="VI" URL="../Main Codebase/GUI Manager Module/Command.ctl"/>
@@ -118,11 +126,14 @@
 				</Item>
 				<Item Name="SubVIs" Type="Folder">
 					<Item Name="Blank Module Data (Constant).vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Blank Module Data (Constant).vi"/>
-					<Item Name="Close Module.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Close Module.vi"/>
-					<Item Name="Execute Command 1 (Replace Me).vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Execute Command 1 (Replace Me).vi"/>
+					<Item Name="Convert Input Condition to Initial State.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Convert Input Condition to Initial State.vi"/>
 					<Item Name="Handle Local Error.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Handle Local Error.vi"/>
+					<Item Name="Init Tickboxes.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Init Tickboxes.vi"/>
+					<Item Name="Throw Error - Impossible Initial State.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Throw Error - Impossible Initial State.vi"/>
 				</Item>
 				<Item Name="Typedefs" Type="Folder">
+					<Item Name="Initial State (enum).ctl" Type="VI" URL="../Main Codebase/GUI Manager Module/Initial State (enum).ctl"/>
+					<Item Name="Input Conditions (cluster).ctl" Type="VI" URL="../Main Codebase/Input Conditions (cluster).ctl"/>
 					<Item Name="Module Data.ctl" Type="VI" URL="../Main Codebase/GUI Manager Module/Module Data.ctl"/>
 				</Item>
 				<Item Name="GUI Manager Module.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/GUI Manager Module.vi"/>
@@ -130,6 +141,7 @@
 			<Item Name="Misc VIs" Type="Folder">
 				<Item Name="Add VI to Owner Library or Class.vi" Type="VI" URL="../Main Codebase/Add VI to Owner Library or Class.vi"/>
 				<Item Name="Add VI to Project.vi" Type="VI" URL="../Main Codebase/Add VI to Project.vi"/>
+				<Item Name="Build Initial Conditions Cluster.vi" Type="VI" URL="../Main Codebase/Build Initial Conditions Cluster.vi"/>
 				<Item Name="Close Front Panel.vi" Type="VI" URL="../Main Codebase/Close Front Panel.vi"/>
 				<Item Name="Create New VI or CTL From Template.vi" Type="VI" URL="../Main Codebase/Create New VI or CTL From Template.vi"/>
 				<Item Name="Get Application Instance Details.vi" Type="VI" URL="../Main Codebase/Get Application Instance Details.vi"/>
