@@ -100,10 +100,12 @@
 				<Item Name="Add VI to Project.vi" Type="VI" URL="../Main Codebase/Add VI to Project.vi"/>
 				<Item Name="Close Front Panel.vi" Type="VI" URL="../Main Codebase/Close Front Panel.vi"/>
 				<Item Name="Create New VI or CTL From Template.vi" Type="VI" URL="../Main Codebase/Create New VI or CTL From Template.vi"/>
+				<Item Name="Get Application Instance Details.vi" Type="VI" URL="../Main Codebase/Get Application Instance Details.vi"/>
 				<Item Name="Get Destination Folder.vi" Type="VI" URL="../Main Codebase/Get Destination Folder.vi"/>
 				<Item Name="Get LabVIEW Version Year.vi" Type="VI" URL="../Main Codebase/Get LabVIEW Version Year.vi"/>
 				<Item Name="Get SCL Selected Item.vi" Type="VI" URL="../Main Codebase/Get SCL Selected Item.vi"/>
 				<Item Name="Get Selected Project Reference.vi" Type="VI" URL="../Main Codebase/Get Selected Project Reference.vi"/>
+				<Item Name="Get User VI Application Instance.vi" Type="VI" URL="../Main Codebase/Get User VI Application Instance.vi"/>
 				<Item Name="Get User VI Owners.vi" Type="VI" URL="../Main Codebase/Get User VI Owners.vi"/>
 				<Item Name="Handle NoTemplatesFound.vi" Type="VI" URL="../Main Codebase/Handle NoTemplatesFound.vi"/>
 				<Item Name="Init Front Panel.vi" Type="VI" URL="../Main Codebase/Init Front Panel.vi"/>
@@ -135,7 +137,7 @@
 			<Item Name="Sandbox 3 - General Testing.vi" Type="VI" URL="../Main Codebase/Sandbox 3 - General Testing.vi"/>
 			<Item Name="Sandbox 4 - Get Virtual Folder Structure.vi" Type="VI" URL="../Main Codebase/Sandbox 4 - Get Virtual Folder Structure.vi"/>
 			<Item Name="Sandbox 5 - Move a VI from one virtual folder to another.vi" Type="VI" URL="../Main Codebase/Sandbox 5 - Move a VI from one virtual folder to another.vi"/>
-			<Item Name="Sandbox 6 - To be used.vi" Type="VI" URL="../Main Codebase/Sandbox 6 - To be used.vi"/>
+			<Item Name="Sandbox 6 - Add VI to lvclass.vi" Type="VI" URL="../Main Codebase/Sandbox 6 - Add VI to lvclass.vi"/>
 		</Item>
 		<Item Name="Support Files (do not modify)" Type="Folder">
 			<Item Name="(Note part 1) These CTLs have to be included in the project" Type="Folder"/>
@@ -197,9 +199,12 @@
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="CLSUIP_GetApplicationOfClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/CLSUIP_GetApplicationOfClass.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="LIBUIP_Get_Item_Type.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/VILibrary/LIBUIP_Get_Item_Type.vi"/>
+			<Item Name="LIBUIP_item_type.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/VILibrary/LIBUIP_item_type.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="New VI or CTL From Template.llb" Type="Source Distribution">
@@ -229,16 +234,16 @@ b) for only one LabVIEW version to use the tool, use: "C:\Program Files (x86)\Na
 				<Property Name="Bld_removeVIObj" Type="Int">2</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/Non-Released/LLBs/LLB Build Log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Non-Released/LLBs/NI_AB_PROJECTNAME.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Builds/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C0EC8926-7432-4674-A59E-ED64134F6FB7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5AA920AB-1E05-4265-9EC1-570A0CB8014F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Execute/Execute New VI From Template.vi</Property>
