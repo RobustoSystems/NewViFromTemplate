@@ -104,9 +104,12 @@
 			</Item>
 			<Item Name="GUI Manager Module" Type="Folder">
 				<Item Name="API VIs" Type="Folder">
-					<Item Name="API Close Module.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/API Close Module.vi"/>
+					<Item Name="API Handle Value Change - Add to Owner.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/API Handle Value Change - Add to Owner.vi"/>
+					<Item Name="API Handle Value Change - Add to Project.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/API Handle Value Change - Add to Project.vi"/>
+					<Item Name="API Handle Value Change - Add to Virtual Folder.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/API Handle Value Change - Add to Virtual Folder.vi"/>
 					<Item Name="API Init Module.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/API Init Module.vi"/>
 					<Item Name="API Init Tickboxes.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/API Init Tickboxes.vi"/>
+					<Item Name="API Shutdown Module.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/API Shutdown Module.vi"/>
 				</Item>
 				<Item Name="MHL Queue" Type="Folder">
 					<Item Name="Typedefs" Type="Folder">
