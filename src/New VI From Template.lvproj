@@ -123,6 +123,7 @@
 				<Item Name="Handle Tickbox Value Change" Type="Folder">
 					<Item Name="Handle Value Change - Add to Owner.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Handle Value Change - Add to Owner.vi"/>
 					<Item Name="Handle Value Change - Add to Project.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Handle Value Change - Add to Project.vi"/>
+					<Item Name="Handle Value Change - Add to Virtual Folder.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Handle Value Change - Add to Virtual Folder.vi"/>
 				</Item>
 				<Item Name="MHL Queue" Type="Folder">
 					<Item Name="Typedefs" Type="Folder">
