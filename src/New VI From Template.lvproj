@@ -121,6 +121,7 @@
 					<Item Name="Throw Error - Impossible Initial State.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Throw Error - Impossible Initial State.vi"/>
 				</Item>
 				<Item Name="Handle Tickbox Value Change" Type="Folder">
+					<Item Name="Handle Value Change - Add to Owner.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Handle Value Change - Add to Owner.vi"/>
 					<Item Name="Handle Value Change - Add to Project.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Handle Value Change - Add to Project.vi"/>
 				</Item>
 				<Item Name="MHL Queue" Type="Folder">
