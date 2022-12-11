@@ -111,6 +111,18 @@
 					<Item Name="API Init Tickboxes.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/API Init Tickboxes.vi"/>
 					<Item Name="API Shutdown Module.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/API Shutdown Module.vi"/>
 				</Item>
+				<Item Name="Custom Errors" Type="Folder">
+					<Item Name="Throw Error - ATO Checkbox Should Be Disabled.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Throw Error - ATO Checkbox Should Be Disabled.vi"/>
+					<Item Name="Throw Error - ATP Checkbox Should Be Disabled.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Throw Error - ATP Checkbox Should Be Disabled.vi"/>
+					<Item Name="Throw Error - ATVF Checkbox Should Be Disabled.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Throw Error - ATVF Checkbox Should Be Disabled.vi"/>
+					<Item Name="Throw Error - Impossible Initial State - Reason 1.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Throw Error - Impossible Initial State - Reason 1.vi"/>
+					<Item Name="Throw Error - Impossible Initial State - Reason 2.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Throw Error - Impossible Initial State - Reason 2.vi"/>
+					<Item Name="Throw Error - Impossible Initial State - Reason 3.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Throw Error - Impossible Initial State - Reason 3.vi"/>
+					<Item Name="Throw Error - Impossible Initial State.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Throw Error - Impossible Initial State.vi"/>
+				</Item>
+				<Item Name="Handle Tickbox Value Change" Type="Folder">
+					<Item Name="Handle Value Change - Add to Project.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Handle Value Change - Add to Project.vi"/>
+				</Item>
 				<Item Name="MHL Queue" Type="Folder">
 					<Item Name="Typedefs" Type="Folder">
 						<Item Name="Command.ctl" Type="VI" URL="../Main Codebase/GUI Manager Module/Command.ctl"/>
@@ -137,7 +149,6 @@
 					<Item Name="Get Caption - Add To Owner.vi" Type="VI" URL="../Main Codebase/Get Caption - Add To Owner.vi"/>
 					<Item Name="Handle Local Error.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Handle Local Error.vi"/>
 					<Item Name="Init Tickboxes.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Init Tickboxes.vi"/>
-					<Item Name="Throw Error - Impossible Initial State.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Throw Error - Impossible Initial State.vi"/>
 					<Item Name="Tickbox - Tick.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Tickbox - Tick.vi"/>
 					<Item Name="Tickbox - Untick.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Tickbox - Untick.vi"/>
 				</Item>
