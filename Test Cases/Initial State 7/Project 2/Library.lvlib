@@ -5,8 +5,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="HelloWorldVirtualFolder" Type="Folder">
-		<Item Name="Template 1 - VI With Error Terminals.vi" Type="VI" URL="../Template 1 - VI With Error Terminals.vi"/>
 		<Item Name="User VI.vi" Type="VI" URL="../User VI.vi"/>
 	</Item>
-	<Item Name="Template 4 - CTL (Typedef Enum).ctl" Type="VI" URL="../Template 4 - CTL (Typedef Enum).ctl"/>
 </Library>
