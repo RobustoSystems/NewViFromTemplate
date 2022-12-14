@@ -162,11 +162,13 @@
 				<Item Name="GUI Manager Module.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/GUI Manager Module.vi"/>
 			</Item>
 			<Item Name="Misc VIs" Type="Folder">
-				<Item Name="Add VI to Owner Library or Class.vi" Type="VI" URL="../Main Codebase/Add VI to Owner Library or Class.vi"/>
-				<Item Name="Add VI to Project.vi" Type="VI" URL="../Main Codebase/Add VI to Project.vi"/>
+				<Item Name="Add VI or CTL to lvlib or lvclass.vi" Type="VI" URL="../Main Codebase/Add VI or CTL to lvlib or lvclass.vi"/>
+				<Item Name="Add VI or CTL to lvproj, lvlib, or lvclass.vi" Type="VI" URL="../Main Codebase/Add VI or CTL to lvproj, lvlib, or lvclass.vi"/>
+				<Item Name="Add VI or CTL to lvproj.vi" Type="VI" URL="../Main Codebase/Add VI or CTL to lvproj.vi"/>
+				<Item Name="Add VI or CTL to Virtual Folder.vi" Type="VI" URL="../Main Codebase/Add VI or CTL to Virtual Folder.vi"/>
 				<Item Name="Build Initial Conditions Cluster.vi" Type="VI" URL="../Main Codebase/Build Initial Conditions Cluster.vi"/>
 				<Item Name="Close Front Panel.vi" Type="VI" URL="../Main Codebase/Close Front Panel.vi"/>
-				<Item Name="Create New VI or CTL From Template.vi" Type="VI" URL="../Main Codebase/Create New VI or CTL From Template.vi"/>
+				<Item Name="Create New VI or CTL On Disk.vi" Type="VI" URL="../Main Codebase/Create New VI or CTL On Disk.vi"/>
 				<Item Name="Get Application Instance Details.vi" Type="VI" URL="../Main Codebase/Get Application Instance Details.vi"/>
 				<Item Name="Get Destination Folder.vi" Type="VI" URL="../Main Codebase/Get Destination Folder.vi"/>
 				<Item Name="Get LabVIEW Version Year.vi" Type="VI" URL="../Main Codebase/Get LabVIEW Version Year.vi"/>
@@ -183,11 +185,15 @@
 				<Item Name="Perform Checks.vi" Type="VI" URL="../Main Codebase/Perform Checks.vi"/>
 				<Item Name="Populate SCL.vi" Type="VI" URL="../Main Codebase/Populate SCL.vi"/>
 				<Item Name="Reset Front Panel Origin.vi" Type="VI" URL="../Main Codebase/Reset Front Panel Origin.vi"/>
+				<Item Name="Virtual Folder Type (enum).ctl" Type="VI" URL="../Main Codebase/Virtual Folder Type (enum).ctl"/>
 			</Item>
 			<Item Name="SomeTemplatesFound Tab" Type="Folder">
 				<Item Name="Disable GUI Objects inside SomeTemplatesFound Tab.vi" Type="VI" URL="../Main Codebase/Disable GUI Objects inside SomeTemplatesFound Tab.vi"/>
 				<Item Name="Enable GUI Objects inside SomeTemplatesFound Tab.vi" Type="VI" URL="../Main Codebase/Enable GUI Objects inside SomeTemplatesFound Tab.vi"/>
 				<Item Name="Get Refs of GUI Objects inside SomeTemplatesFound Tab.vi" Type="VI" URL="../Main Codebase/Get Refs of GUI Objects inside SomeTemplatesFound Tab.vi"/>
+			</Item>
+			<Item Name="SubPanels" Type="Folder">
+				<Item Name="Close SubPanels.vi" Type="VI" URL="../Main Codebase/Close SubPanels.vi"/>
 			</Item>
 			<Item Name="Testing Flag" Type="Folder">
 				<Item Name="Testing Flag (enum).ctl" Type="VI" URL="../Main Codebase/Testing Flag (enum).ctl"/>

@@ -5,6 +5,10 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="HelloWorldVirtualFolder" Type="Folder">
-		<Item Name="User VI.vi" Type="VI" URL="../User VI.vi"/>
+		<Item Name="User VI 1.vi" Type="VI" URL="../User VI 1.vi"/>
+	</Item>
+	<Item Name="PrivateFolder" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="User VI 2.vi" Type="VI" URL="../User VI 2.vi"/>
 	</Item>
 </Library>
