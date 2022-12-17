@@ -31,6 +31,11 @@
 					<Item Name="Enable GUI Object.vi" Type="VI" URL="../Main Codebase/Enable GUI Object.vi"/>
 					<Item Name="Enable GUI Objects.vi" Type="VI" URL="../Main Codebase/Enable GUI Objects.vi"/>
 				</Item>
+				<Item Name="Get Path Distances" Type="Folder">
+					<Item Name="Convert Path To Array Of Folders.vi" Type="VI" URL="../Main Codebase/Convert Path To Array Of Folders.vi"/>
+					<Item Name="Get Path Distance.vi" Type="VI" URL="../Main Codebase/Get Path Distance.vi"/>
+					<Item Name="Sort I32 Array.vi" Type="VI" URL="../Main Codebase/Sort I32 Array.vi"/>
+				</Item>
 				<Item Name="Set Captions" Type="Folder">
 					<Item Name="Set Caption - Add To Library Checkbox.vi" Type="VI" URL="../Main Codebase/Set Caption - Add To Library Checkbox.vi"/>
 					<Item Name="Set Tickbox Caption - Not Owned.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Set Tickbox Caption - Not Owned.vi"/>
@@ -42,7 +47,8 @@
 				<Item Name="Config GUI - Insert Into Virtual Folder.vi" Type="VI" URL="../Main Codebase/Config GUI - Insert Into Virtual Folder.vi"/>
 				<Item Name="Config GUI - Section Header Selected.vi" Type="VI" URL="../Main Codebase/Config GUI - Section Header Selected.vi"/>
 				<Item Name="GUI Object Refs (cluster).ctl" Type="VI" URL="../Main Codebase/GUI Object Refs (cluster).ctl"/>
-				<Item Name="Set Add To Project ComboBox.vi" Type="VI" URL="../Main Codebase/Set Add To Project ComboBox.vi"/>
+				<Item Name="Set ATP ComboBox - Multiple Projects Open.vi" Type="VI" URL="../Main Codebase/Set ATP ComboBox - Multiple Projects Open.vi"/>
+				<Item Name="Set ATP ComboBox - Single Project Open.vi" Type="VI" URL="../Main Codebase/Set ATP ComboBox - Single Project Open.vi"/>
 			</Item>
 			<Item Name="DepthFirstSearch - Find VI in ProjectItem" Type="Folder">
 				<Item Name="Data Structures (Typedefs)" Type="Folder">
@@ -335,7 +341,7 @@ b) for only one LabVIEW version to use the tool, use: "C:\Program Files (x86)\Na
 				<Property Name="Bld_removeVIObj" Type="Int">2</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/Non-Released/LLBs/LLB Build Log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
