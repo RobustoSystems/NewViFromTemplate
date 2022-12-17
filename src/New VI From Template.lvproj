@@ -67,9 +67,10 @@
 					<Item Name="DFS Data - Set Current Index.vi" Type="VI" URL="../Main Codebase/DFS Data - Set Current Index.vi"/>
 				</Item>
 				<Item Name="Project Items[]" Type="Folder">
+					<Item Name="Is ProjectItem Virtual Folder.vi" Type="VI" URL="../Main Codebase/Is ProjectItem Virtual Folder.vi"/>
 					<Item Name="Project Items - Get Names.vi" Type="VI" URL="../Main Codebase/Project Items - Get Names.vi"/>
 					<Item Name="Project Items - Get Owned Items.vi" Type="VI" URL="../Main Codebase/Project Items - Get Owned Items.vi"/>
-					<Item Name="Project Items - Keep Folders.vi" Type="VI" URL="../Main Codebase/Project Items - Keep Folders.vi"/>
+					<Item Name="Project Items - Keep Virtual Folders.vi" Type="VI" URL="../Main Codebase/Project Items - Keep Virtual Folders.vi"/>
 					<Item Name="Project Items - Keep VIs.vi" Type="VI" URL="../Main Codebase/Project Items - Keep VIs.vi"/>
 				</Item>
 				<Item Name="Find VI in ProjectItem (DFS Search).vi" Type="VI" URL="../Main Codebase/Find VI in ProjectItem (DFS Search).vi"/>
@@ -332,16 +333,15 @@ b) for only one LabVIEW version to use the tool, use: "C:\Program Files (x86)\Na
 				<Property Name="Bld_removeVIObj" Type="Int">2</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/Non-Released/LLBs/LLB Build Log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">3</Property>
+				<Property Name="Bld_version.minor" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Non-Released/LLBs/NI_AB_PROJECTNAME.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Builds/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9B9C31F8-A0C7-41F2-9D21-9208C15BA90F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0545CC50-16B1-4692-A523-78ABB17C09A1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Execute/Execute New VI From Template.vi</Property>
