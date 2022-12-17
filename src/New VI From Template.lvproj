@@ -20,6 +20,7 @@
 			</Item>
 			<Item Name="Close References" Type="Folder">
 				<Item Name="Close Library Reference.vi" Type="VI" URL="../Main Codebase/Close Library Reference.vi"/>
+				<Item Name="Close Project References.vi" Type="VI" URL="../Main Codebase/Close Project References.vi"/>
 				<Item Name="Close VI Reference.vi" Type="VI" URL="../Main Codebase/Close VI Reference.vi"/>
 			</Item>
 			<Item Name="Config GUI" Type="Folder">
