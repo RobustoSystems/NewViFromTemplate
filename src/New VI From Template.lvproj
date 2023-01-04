@@ -44,7 +44,6 @@
 					<Item Name="Sort I32 Array.vi" Type="VI" URL="../Main Codebase/Sort I32 Array.vi"/>
 				</Item>
 				<Item Name="Set Captions" Type="Folder">
-					<Item Name="Set Caption - Add To Library Checkbox.vi" Type="VI" URL="../Main Codebase/Set Caption - Add To Library Checkbox.vi"/>
 					<Item Name="Set Tickbox Caption - Not Owned.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Set Tickbox Caption - Not Owned.vi"/>
 					<Item Name="Set Tickbox Caption.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Set Tickbox Caption.vi"/>
 				</Item>
