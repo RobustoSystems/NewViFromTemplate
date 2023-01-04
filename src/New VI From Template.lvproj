@@ -16,11 +16,13 @@
 			<Item Name="App Settings (Windows Registry)" Type="Folder">
 				<Item Name="OpenFrontPanelWhenCreatedKey" Type="Folder">
 					<Item Name="Read OpenFPWhenCreated Key.vi" Type="VI" URL="../Main Codebase/Read OpenFPWhenCreated Key.vi"/>
+					<Item Name="Write OpenFPWhenCreated Key.vi" Type="VI" URL="../Main Codebase/Write OpenFPWhenCreated Key.vi"/>
 				</Item>
 				<Item Name="TemplatesFolderKey" Type="Folder">
 					<Item Name="Read TemplatesFolder Key.vi" Type="VI" URL="../Main Codebase/Read TemplatesFolder Key.vi"/>
 					<Item Name="Write TemplatesFolder Key.vi" Type="VI" URL="../Main Codebase/Write TemplatesFolder Key.vi"/>
 				</Item>
+				<Item Name="Create Subkey.vi" Type="VI" URL="../Main Codebase/Create Subkey.vi"/>
 				<Item Name="Reg Key Constants.vi" Type="VI" URL="../Main Codebase/Reg Key Constants.vi"/>
 			</Item>
 			<Item Name="Close References" Type="Folder">
@@ -202,7 +204,7 @@
 				<Item Name="Virtual Folder Type (enum).ctl" Type="VI" URL="../Main Codebase/Virtual Folder Type (enum).ctl"/>
 			</Item>
 			<Item Name="Run-Time Menu" Type="Folder">
-				<Item Name="Run-Time Menu.rtm" Type="Document" URL="../../../../FreeLabelToViDescription/Source Code/Run-Time Menu.rtm"/>
+				<Item Name="Run-Time Menu.rtm" Type="Document" URL="../Main Codebase/Run-Time Menu.rtm"/>
 			</Item>
 			<Item Name="Settings Editor" Type="Folder">
 				<Item Name="Settings Editor.vi" Type="VI" URL="../Main Codebase/Settings Editor.vi"/>
@@ -326,13 +328,13 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="New VI or CTL From Template.llb" Type="Source Distribution">
+			<Item Name="New VI From Template.llb" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{CA585E57-4886-45A3-BEB8-0B867F3DB0BA}</Property>
 				<Property Name="Bld_buildSpecDescription" Type="Str">This build specification creates the shortcut menu LLB. This LLB needs to be deployed to either:
 a) for all LabVIEW versions to use the tool, use: "C:\Users\&lt;username&gt;\Documents\LabVIEW Data\PopupMenus\edit time panel and diagram"
 b) for only one LabVIEW version to use the tool, use: "C:\Program Files (x86)\National Instruments\LabVIEW 2020\resource\plugins\PopupMenus\edit time panel and diagram"</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">New VI or CTL From Template.llb</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">New VI From Template.llb</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
@@ -353,16 +355,16 @@ b) for only one LabVIEW version to use the tool, use: "C:\Program Files (x86)\Na
 				<Property Name="Bld_removeVIObj" Type="Int">2</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/Non-Released/LLBs/LLB Build Log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">4</Property>
+				<Property Name="Bld_version.minor" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Non-Released/LLBs/NI_AB_PROJECTNAME.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Builds/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{937242D1-4D4A-4183-BFBD-F5229070D470}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{81190F5A-06CA-4257-8C2E-5073F8ADD7E3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Execute/Execute New VI From Template.vi</Property>
