@@ -14,9 +14,14 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Execute" Type="Folder">
 			<Item Name="App Settings (Windows Registry)" Type="Folder">
-				<Item Name="Read TemplatesFolder Key.vi" Type="VI" URL="../Main Codebase/Read TemplatesFolder Key.vi"/>
+				<Item Name="OpenFrontPanelWhenCreatedKey" Type="Folder">
+					<Item Name="Read OpenFPWhenCreated Key.vi" Type="VI" URL="../Main Codebase/Read OpenFPWhenCreated Key.vi"/>
+				</Item>
+				<Item Name="TemplatesFolderKey" Type="Folder">
+					<Item Name="Read TemplatesFolder Key.vi" Type="VI" URL="../Main Codebase/Read TemplatesFolder Key.vi"/>
+					<Item Name="Write TemplatesFolder Key.vi" Type="VI" URL="../Main Codebase/Write TemplatesFolder Key.vi"/>
+				</Item>
 				<Item Name="Reg Key Constants.vi" Type="VI" URL="../Main Codebase/Reg Key Constants.vi"/>
-				<Item Name="Write TemplatesFolder Key.vi" Type="VI" URL="../Main Codebase/Write TemplatesFolder Key.vi"/>
 			</Item>
 			<Item Name="Close References" Type="Folder">
 				<Item Name="Close Library Reference.vi" Type="VI" URL="../Main Codebase/Close Library Reference.vi"/>
@@ -158,6 +163,7 @@
 					<Item Name="Convert Input Condition to Initial State.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Convert Input Condition to Initial State.vi"/>
 					<Item Name="Get Caption - Add To Owner.vi" Type="VI" URL="../Main Codebase/Get Caption - Add To Owner.vi"/>
 					<Item Name="Handle Local Error.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Handle Local Error.vi"/>
+					<Item Name="Init Open Front Panel Tickbox.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Init Open Front Panel Tickbox.vi"/>
 					<Item Name="Init Tickboxes.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Init Tickboxes.vi"/>
 					<Item Name="Tickbox - Tick.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Tickbox - Tick.vi"/>
 					<Item Name="Tickbox - Untick.vi" Type="VI" URL="../Main Codebase/GUI Manager Module/Tickbox - Untick.vi"/>
@@ -194,6 +200,12 @@
 				<Item Name="Populate SCL.vi" Type="VI" URL="../Main Codebase/Populate SCL.vi"/>
 				<Item Name="Reset Front Panel Origin.vi" Type="VI" URL="../Main Codebase/Reset Front Panel Origin.vi"/>
 				<Item Name="Virtual Folder Type (enum).ctl" Type="VI" URL="../Main Codebase/Virtual Folder Type (enum).ctl"/>
+			</Item>
+			<Item Name="Run-Time Menu" Type="Folder">
+				<Item Name="Run-Time Menu.rtm" Type="Document" URL="../../../../FreeLabelToViDescription/Source Code/Run-Time Menu.rtm"/>
+			</Item>
+			<Item Name="Settings Editor" Type="Folder">
+				<Item Name="Settings Editor.vi" Type="VI" URL="../Main Codebase/Settings Editor.vi"/>
 			</Item>
 			<Item Name="SomeTemplatesFound Tab" Type="Folder">
 				<Item Name="Disable GUI Objects inside SomeTemplatesFound Tab.vi" Type="VI" URL="../Main Codebase/Disable GUI Objects inside SomeTemplatesFound Tab.vi"/>
