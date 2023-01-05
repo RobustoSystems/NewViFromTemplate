@@ -1,0 +1,153 @@
+05/01/2023 10:29:52
+[General]
+Project: D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\New VI From Template.lvproj
+Target: My Computer
+Build Specification: New VI From Template.llb
+OS: Windows NT 10.0
+
+[Open Top Level VIs]
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Execute New VI From Template.vi	05/01/2023 10:29:35
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\New VI From Template.vi	25/09/2022 17:15:37
+
+
+[Source Files]
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Run-Time Menu.rtm	04/01/2023 13:16:20
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Constant - Queue Name.vi	21/11/2022 13:39:41	29
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Testing Flag (enum).ctl	25/09/2022 17:15:54	2
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Testing Flag (library variable).vi	25/09/2022 17:15:54	4
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Close Front Panel.vi	10/11/2022 14:47:02	104
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Close Project References.vi	17/12/2022 14:46:19	117
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Close Library Reference.vi	10/11/2022 14:46:39	108
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Error to Dialogue Message.vi	07/11/2022 13:01:56	138
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Handle Loop Errors.vi	07/11/2022 13:01:56	140
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Get LabVIEW Version Year.vi	10/11/2022 09:14:38	10
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Reg Key Constants.vi	04/01/2023 14:19:10	61
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Write OpenFPWhenCreated Key.vi	04/01/2023 16:23:40	54
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Write TemplatesFolder Key.vi	07/11/2022 13:32:13	42
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Create Subkey.vi	04/01/2023 16:29:07	18
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Read OpenFPWhenCreated Key.vi	04/01/2023 16:38:30	99
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Read TemplatesFolder Key.vi	04/01/2023 16:38:34	71
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Init Front Panel.vi	04/01/2023 13:30:18	121
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Settings Editor.vi	05/01/2023 10:27:09	105
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Throw Error (no overwrite).vi	21/11/2022 15:14:40	133
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Get Selected Project Reference.vi	10/11/2022 15:07:00	24
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Add VI or CTL to lvproj.vi	17/12/2022 14:35:26	230
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Virtual Folder Type (enum).ctl	14/12/2022 19:54:13	3
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\DFS Output (cluster).ctl	21/11/2022 14:44:32	40
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Add VI or CTL to Virtual Folder.vi	15/12/2022 11:08:26	186
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Add VI or CTL to lvlib or lvclass.vi	14/12/2022 19:40:52	164
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Owner Status (enum).ctl	25/09/2022 17:15:54	3
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Initial State (enum).ctl	21/11/2022 15:01:46	3
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Init Open Front Panel Tickbox.vi	04/01/2023 16:41:34	14
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Throw Error - Impossible Initial State.vi	21/11/2022 15:18:01	149
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Throw Error - Impossible Initial State - Reason 1.vi	11/12/2022 16:14:30	156
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Set ATP ComboBox - Single Project Open.vi	17/12/2022 20:47:46	24
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Disable And Grey Out GUI Object.vi	21/11/2022 20:03:18	24
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Throw Error - Impossible Initial State - Reason 3.vi	11/12/2022 16:16:06	164
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Sort I32 Array.vi	17/12/2022 21:47:45	14
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Convert Path To Array Of Folders.vi	17/12/2022 21:25:02	27
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Get Path Distance.vi	17/12/2022 21:39:44	56
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Set ATP ComboBox - Multiple Projects Open.vi	24/12/2022 14:14:37	139
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Enable GUI Objects.vi	09/11/2022 10:27:37	12
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Tickbox - Tick.vi	21/11/2022 20:35:37	7
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Set Tickbox Caption.vi	21/11/2022 15:32:32	11
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Enable GUI Object.vi	21/11/2022 20:01:50	18
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Get Caption - Add To Owner.vi	21/11/2022 20:13:33	11
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Throw Error - Impossible Initial State - Reason 2.vi	11/12/2022 16:15:15	159
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Tickbox - Untick.vi	21/11/2022 20:35:42	9
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Clear String.vi	21/11/2022 15:38:59	13
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Clear ComboBox.vi	21/11/2022 15:38:48	9
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Set Tickbox Caption - Not Owned.vi	21/11/2022 20:46:32	15
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Disable And Grey Out GUI Objects.vi	21/11/2022 21:14:50	20
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Input Conditions (cluster).ctl	17/12/2022 22:21:46	21
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Object Refs (cluster).ctl	22/11/2022 07:58:32	18
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Module Data.ctl	17/12/2022 22:21:49	23
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Config GUI - Add To Project.vi	04/01/2023 21:16:03	242
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Config GUI - Insert Into Virtual Folder.vi	22/11/2022 07:58:34	266
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Init Tickboxes.vi	04/01/2023 21:15:47	182
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Command.ctl	22/11/2022 09:25:35	33
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Message.ctl	22/11/2022 09:25:35	44
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Get Queue Ref.vi	22/11/2022 09:25:36	105
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Enqueue One Command High Priority.vi	22/11/2022 09:25:36	84
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Handle Local Error.vi	22/11/2022 09:25:36	108
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Throw Error - ATVF Checkbox Should Be Disabled.vi	11/12/2022 16:34:06	167
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Handle Value Change - Add to Virtual Folder.vi	17/12/2022 22:21:49	168
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Throw Error - ATO Checkbox Should Be Disabled.vi	11/12/2022 16:32:59	165
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Handle Value Change - Add to Owner.vi	17/12/2022 22:21:49	134
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Throw Error - ATP Checkbox Should Be Disabled.vi	11/12/2022 16:33:15	164
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Handle Value Change - Add to Project.vi	17/12/2022 22:21:49	89
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Convert Input Condition to Initial State.vi	17/12/2022 22:21:49	21
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\API Shutdown Module.vi	22/11/2022 09:25:37	101
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Destroy Queue.vi	22/11/2022 09:25:36	109
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Dequeue.vi	22/11/2022 09:25:36	88
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Blank Module Data (Constant).vi	17/12/2022 22:21:49	59
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\GUI Manager Module.vi	04/01/2023 16:41:42	936
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Add VI or CTL to lvproj, lvlib, or lvclass.vi	15/12/2022 11:08:29	233
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Filename - Is VI.vi	07/11/2022 13:01:56	98
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Filename - Is VIT.vi	07/11/2022 13:01:56	103
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Filename - Has Block Diagram.vi	07/11/2022 14:53:29	105
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Create New VI or CTL On Disk.vi	14/12/2022 19:34:13	296
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Close SubPanels.vi	14/12/2022 16:21:49	13
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Filename - Is CTT.vi	07/11/2022 13:01:56	108
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Filename - Is CTL.vi	07/11/2022 13:01:56	95
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Output File Extension (enum).ctl	10/11/2022 15:51:10	3
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Ensure Filename Has Extension.vi	17/12/2022 17:37:17	62
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Get Desired File Extension.vi	17/12/2022 17:25:01	41
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Get New Filepath.vi	17/12/2022 17:37:11	61
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\is valid path.vi	07/11/2022 14:13:44	50
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\is directory.vi	07/11/2022 14:14:43	47
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Perform Checks.vi	17/12/2022 20:35:37	214
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Get SCL Selected Item.vi	07/11/2022 13:01:56	95
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Enqueue One Command.vi	22/11/2022 09:25:36	90
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\API Handle Value Change - Add to Virtual Folder.vi	22/11/2022 09:28:27	118
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\API Handle Value Change - Add to Owner.vi	22/11/2022 09:27:57	115
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\API Handle Value Change - Add to Project.vi	22/11/2022 09:27:21	112
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Close VI Reference.vi	10/11/2022 14:48:21	105
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Reset Front Panel Origin.vi	07/11/2022 15:02:48	25
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\API Init Tickboxes.vi	17/12/2022 22:21:49	106
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\API Init Module.vi	22/11/2022 09:25:35	112
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Throw Error - Queue Already Exists.vi	21/11/2022 13:36:20	97
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\GUI Manager Module\Create Queue.vi	22/11/2022 09:25:35	99
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Build Initial Conditions Cluster.vi	17/12/2022 22:22:02	42
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\DFS Child Node (cluster).ctl	07/11/2022 20:11:15	27
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\DFS Node (cluster).ctl	07/11/2022 20:11:00	27
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\DFS Data (cluster).ctl	08/11/2022 20:05:25	32
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\DFS Data - Get Node.vi	07/11/2022 20:48:48	61
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\DFS Data - Get Parent Index.vi	08/11/2022 08:20:15	74
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\DFS Data - Replace Node.vi	07/11/2022 20:44:07	77
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Set Fully Explored.vi	08/11/2022 08:20:22	68
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Get Index Of First Unexplored Child.vi	07/11/2022 21:32:01	90
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Project Items - Keep VIs.vi	14/11/2022 21:46:48	22
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Project Items - Get Owned Items.vi	14/11/2022 21:46:36	33
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Search For VI.vi	08/11/2022 20:06:53	78
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Project Items - Get Names.vi	14/11/2022 21:46:29	24
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Create Node.vi	07/11/2022 20:50:30	28
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Is ProjectItem Virtual Folder.vi	17/12/2022 11:36:40	27
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Project Items - Keep Virtual Folders.vi	17/12/2022 11:39:52	30
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\DFS Data - Get Number Of Nodes.vi	14/11/2022 21:46:03	69
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Add Children.vi	17/12/2022 11:37:30	61
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\DFS Data - Set Current Index.vi	07/11/2022 20:48:22	69
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Is valid VI filename.vi	08/11/2022 11:54:43	22
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\DFS Data - Init.vi	07/11/2022 20:31:59	11
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Is ProjectItem an lvproj, lvlib, or lvclass.vi	18/11/2022 17:30:44	45
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\DFS States (enum).ctl	18/11/2022 17:08:20	4
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Find VI in ProjectItem (DFS).vi	17/12/2022 14:35:38	273
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Filename - Is Class.vi	07/11/2022 13:01:56	100
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Filename - Is Project Library.vi	07/11/2022 13:01:56	98
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Is There A Single Project Loaded In Memory.vi	09/11/2022 09:54:27	20
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Get User VI Owners.vi	17/12/2022 12:12:58	198
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Get Destination Folder.vi	17/12/2022 20:54:35	112
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Get Refs of GUI Objects inside SomeTemplatesFound Tab.vi	21/11/2022 15:37:09	125
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Enable GUI Objects inside SomeTemplatesFound Tab.vi	21/11/2022 15:37:09	109
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Disable GUI Objects inside SomeTemplatesFound Tab.vi	21/11/2022 15:37:10	105
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Handle NoTemplatesFound.vi	04/01/2023 20:46:17	131
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Populate SCL.vi	04/01/2023 20:51:25	362
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Get Application Instance Details.vi	21/11/2022 14:20:42	17
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Get User VI Application Instance.vi	21/11/2022 14:21:45	36
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\Execute New VI From Template.vi	05/01/2023 10:29:35	1108
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\src\Main Codebase\New VI From Template.vi	25/09/2022 17:15:37	205
+
+[Output Files]
+D:\Projects\LabVIEW\Shortcut Menu Plugins\NewViFromTemplate\GitRepo\LLBs\New VI From Template.llb	05/01/2023 10:29:59
+
+05/01/2023 10:29:59

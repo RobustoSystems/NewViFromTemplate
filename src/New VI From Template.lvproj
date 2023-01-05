@@ -354,7 +354,7 @@
 				<Property Name="Bld_buildCacheID" Type="Str">{CA585E57-4886-45A3-BEB8-0B867F3DB0BA}</Property>
 				<Property Name="Bld_buildSpecDescription" Type="Str">This build specification creates the shortcut menu LLB. This LLB needs to be deployed to either:
 a) for all LabVIEW versions to use the tool, use: "C:\Users\&lt;username&gt;\Documents\LabVIEW Data\PopupMenus\edit time panel and diagram"
-b) for only one LabVIEW version to use the tool, use: "C:\Program Files (x86)\National Instruments\LabVIEW 2020\resource\plugins\PopupMenus\edit time panel and diagram"</Property>
+b) for only one LabVIEW version to use the tool, use: "C:\Program Files (x86)\National Instruments\LabVIEW 2022\resource\plugins\PopupMenus\edit time panel and diagram"</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">New VI From Template.llb</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
@@ -370,22 +370,22 @@ b) for only one LabVIEW version to use the tool, use: "C:\Program Files (x86)\Na
 				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/Non-Released/LLBs/NI_AB_PROJECTNAME.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../LLBs/NI_AB_PROJECTNAME.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{07C03683-FA6E-4D37-8490-0DD7953CED1B}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">2</Property>
-				<Property Name="Bld_userLogFile" Type="Path">../Builds/Non-Released/LLBs/LLB Build Log.txt</Property>
+				<Property Name="Bld_userLogFile" Type="Path">../LLBs/LLB Build Log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Non-Released/LLBs/NI_AB_PROJECTNAME.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../LLBs/NI_AB_PROJECTNAME.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Builds/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../LLBs</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{81190F5A-06CA-4257-8C2E-5073F8ADD7E3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CDC67BA2-3283-470C-96A9-DA32F2BAB745}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Execute/Execute New VI From Template.vi</Property>
